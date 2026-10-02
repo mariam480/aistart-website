@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aiSTART — AI curriculum &amp; platform for KG1–Grade 12 schools</title>
+<meta name="description" content="aiSTART is one AI infrastructure for schools: a KG1–12 AI curriculum, guided AI tools and Private Tutor, assessments, live games, projects and AI-powered insights — with safeguards schools control.">
+<meta name="theme-color" content="#1A3847">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="assets/img/favicon-48.png" sizes="48x48" type="image/png"><link rel="icon" href="favicon.ico" sizes="any"><link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="aiSTART">
+<meta property="og:title" content="aiSTART — A Single AI Infrastructure for Education">
+<meta property="og:description" content="AI curriculum, guided AI tools, assessments and insights for KG1–Grade 12 — one platform, built for schools.">
+<meta property="og:image" content="assets/img/og-image.jpg"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"aiSTART by Slangit Technologies","description":"AI curriculum and platform for KG1–Grade 12 schools.","email":"aiSTART@slangit.ai","parentOrganization":{"@type":"Organization","name":"Slangit Technologies FZCO"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=34">
+</head>
+<body class="no-annot">
+<div id="route-live" class="sr" role="status" aria-live="polite" aria-atomic="true"></div>
+<a class="skip" href="#main">Skip to content</a>
+
+
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="#/home" class="logo" aria-label="aiSTART home"><img src="assets/img/aistart-logo.png" alt="aiSTART" width="159" height="30"></a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu" id="burger" type="button">☰</button>
+    <nav id="menu">
+      <div class="nav-links">
+        <a href="#/platform" data-nav="platform">Platform</a>
+        <a href="#/curriculum" data-nav="curriculum">Curriculum</a>
+        <div class="dd" id="dd">
+          <button type="button" aria-expanded="false" aria-haspopup="true"><span class="t">Who It's For</span><span class="caret" aria-hidden="true">▾</span></button>
+          <div class="dd-menu">
+            <div class="dd-in">
+              <a href="#/leaders" data-nav="leaders">School Leaders</a>
+              <a href="#/teachers" data-nav="teachers">Teachers</a>
+              <a href="#/students" data-nav="students">Students</a>
+              <a href="#/parents" data-nav="parents">Parents</a>
+            </div>
+          </div>
+        </div>
+        <a href="#/services" data-nav="services">Services</a>
+        <a href="#/cases" data-nav="cases">News</a>
+      </div>
+      <div class="nav-actions">
+        <a href="#/demo" class="btn primary sm">Book a Demo</a>
+        <a class="btn sm" href="https://learn.aistart.school/" target="_blank" rel="noopener">Login<span class="sr"> (opens in a new tab)</span></a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+<!-- ===================== PAGE 1 — HOME ===================== -->
+<div class="page" id="page-home" data-title="Home">
+
+<section class="s hero-light hero-c" id="home-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap">
+    <h1>A single AI infrastructure for education.</h1>
+    <p class="lead">Curriculum, guided tools, assessments, and insights for KG1–Grade 12, in one platform.</p>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="general">Book a Demo</a><a href="#/curriculum" class="more">Explore the curriculum →</a></div>
+    <div class="hero-media"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span>
+      <div class="hc" data-hc role="img" aria-label="aiSTART student dashboard with AI tools, courses, calendar, and projects"><img class="hc-p hc-base" style="--i:0" src="assets/img/hero/dashboard.png" width="1484" height="950" alt="aiSTART student dashboard: welcome banner with average grade, courses completed, and pending assignments" decoding="async" fetchpriority="high"><img class="hc-p hc-tools" style="--i:1" src="assets/img/hero/tools.png" width="1116" height="324" alt="" aria-hidden="true" decoding="async"><img class="hc-p hc-courses" style="--i:2" src="assets/img/hero/courses.png" width="737" height="240" alt="" aria-hidden="true" decoding="async"><img class="hc-p hc-calendar" style="--i:3" src="assets/img/hero/calendar.png" width="510" height="537" alt="" aria-hidden="true" decoding="async"><img class="hc-p hc-projects" style="--i:4" src="assets/img/hero/projects.png" width="520" height="356" alt="" aria-hidden="true" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section class="s tight" id="home-trusted"><span class="lbl">02 · Trusted by</span>
+  <div class="wrap center">
+    <p class="muted" style="margin:0 0 26px">Trusted by schools and partners across Lebanon and Ghana</p>
+  </div>
+  <div class="marquee" aria-label="Schools and partners using aiSTART">
+    <ul class="marquee-track" id="logoTrack"></ul>
+  </div>
+</section>
+
+<section class="s tight" id="home-news"><span class="lbl">02b · News</span>
+  <div class="wrap">
+    <div class="news-band">
+      <div class="nb-text"><span class="nb-new">New</span><h2 class="nb-h">Five-year AI literacy initiative across Africa, beginning in Ghana</h2><p>With GADEF International.</p><a class="more nb-read" target="_blank" rel="noopener" href="https://finance.yahoo.com/technology/ai/articles/slangit-technologies-gadef-international-launch-153000913.html">Read the announcement → <span class="sr">(opens in a new tab)</span></a></div>
+      <img class="nb-img" src="assets/img/news/ghana-classroom.webp" width="1000" height="616" alt="Illustration of a teacher and four students in Ghana gathered around a tablet, with a map of Ghana, books and a robot drawing" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section class="s" id="home-problem"><span class="lbl">03 · Problem framing</span>
+  <div class="wrap ch">
+    <div class="ch-text">
+      <span class="tag">The Challenge</span>
+      <h2>Students and teachers are <em class="hlw">already using AI.</em></h2>
+      <p class="ch-lead">The question is whether they're learning to use it well.</p>
+      <p>Most schools are piecing AI together from separate tools, subscriptions, and policies, with little structure for students and little visibility for leaders. aiSTART brings it into one place.</p>
+    </div>
+    <ol class="ch-list">
+      <li><span class="ch-n">01</span><div><h3>Prepare students</h3><p>A structured KG1–Grade 12 pathway to question, verify, and create with AI.</p></div></li>
+      <li><span class="ch-n">02</span><div><h3>Equip teachers</h3><p>Ready-to-teach lessons, guided tools, and training, so no one starts from scratch.</p></div></li>
+      <li><span class="ch-n">03</span><div><h3>Show leaders what's happening</h3><p>Adoption, progress, and signals in one view, with your school in control.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="s" id="home-features"><span class="lbl">04 · Capabilities (alternating rows)</span>
+  <div class="wrap">
+    <div class="center sec-head"><span class="tag">Capabilities</span><h2>Everything in <em class="hlw">one place</em></h2></div>
+
+    <div class="frow" id="home-realcurriculum">
+      <div class="ftxt">
+        <span class="tag">Curriculum</span>
+        <h2>A real curriculum, KG1–Grade 12.</h2>
+        <p>A project-based pathway that grows with the student, from creative exploration in the early years to AI research and industry readiness in Grade 12. Ethics is part of every grade.</p>
+        <div class="stats mini"><div><b>14</b><span>Grade levels</span></div><div><b>80+</b><span>Modules</span></div><div><b>500+</b><span>Sessions</span></div></div>
+        <a href="#/curriculum" class="more">Explore the curriculum →</a>
+      </div>
+      <div class="panel vis-panel" role="img" aria-label="aiSTART course library filtered by Grade 5, showing the Grade 5 modules with their covers"><div class="fv" data-fv="c1" aria-hidden="true"><div class="fv-stage fv-c-teal">
+      <div class="fv-blob" style="width:240px;height:240px;right:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-lib">
+        <div class="fv-mk-bar"><i></i><i></i><i></i><span>Courses</span></div>
+        <div class="fv-bar2"><span class="fv-srch"><svg class="fv-mi"><use href="#fv-search"/></svg>Search Course…</span><span class="fv-sel">Grade 5<svg class="fv-mi"><use href="#fv-chev"/></svg></span></div>
+        <div class="fv-courses">
+          <div class="fv-course"><div class="fv-cv" style="background-image:url(assets/img/features/g5-module-0.webp)"></div><div class="fv-tx"><b>MODULE 0: Ethics of AI and Digital Citizenship</b><span class="fv-ip">In Progress</span><small><span>1 module</span><span>2 weeks</span></small><div class="fv-pg"></div></div></div>
+          <div class="fv-course"><div class="fv-cv" style="background-image:url(assets/img/features/g5-module-1.webp)"></div><div class="fv-tx"><b>Module 1: How AI Learns: Training, Improving &amp; Testing Models</b><span class="fv-ip">In Progress</span><small><span>1 module</span><span>8 weeks</span></small><div class="fv-pg"></div></div></div>
+          <div class="fv-course"><div class="fv-cv" style="background-image:url(assets/img/features/g5-module-2.webp)"></div><div class="fv-tx"><b>Module 2: My AI Helper: Designing an Assistant That Helps Someone Real</b><span class="fv-ip">In Progress</span><small><span>1 module</span><span>8 weeks</span></small><div class="fv-pg"></div></div></div>
+          <div class="fv-course"><div class="fv-cv" style="background-image:url(assets/img/features/g5-module-3.webp)"></div><div class="fv-tx"><b>Module 3: AI Detectives: Investigation, Evidence &amp; Reasoning</b><span class="fv-ip">In Progress</span><small><span>1 module</span><span>6 weeks</span></small><div class="fv-pg"></div></div></div>
+        </div>
+      </div>
+      <div class="fv-layer fv-card fv-gradedd fv-tilt-r fv-bob">
+        <span>All Grades</span><span>Grade 4</span><span class="fv-on">Grade 5<svg class="fv-mi"><use href="#fv-tick"/></svg></span><span>Grade 6</span><span>Grade 7</span><span>Grade 8</span>
+      </div>
+      <div class="fv-layer fv-pill fv-ethics fv-bob fv-b2"><span class="fv-ico fv-t"><svg><use href="#fv-scale"/></svg></span>Ethics in every grade</div>
+    </div></div></div>
+    </div>
+
+    <div class="frow rev">
+      <div class="ftxt">
+        <span class="tag">Guided AI</span>
+        <h2>Tools that make students think first.</h2>
+        <p>A Private Tutor that guides instead of answering.</p>
+        <a href="#/platform/tools" class="more">Discover guided AI tools →</a>
+      </div>
+      <div class="panel vis-panel" role="img" aria-label="Code Buddy chat where a student asks for the full code and the tutor offers to work through it together instead"><div class="fv" data-fv="c2" aria-hidden="true"><div class="fv-stage fv-c-navy">
+      <div class="fv-blob" style="width:240px;height:240px;left:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-cb">
+        <div class="fv-cbh"><span class="fv-ib"><svg class="fv-mi"><use href="#fv-x"/></svg></span><div class="fv-ttl"><b><img class="fv-cbi" src="assets/img/features/code-buddy.webp" alt="">Code Buddy</b><small>AI ASSISTANT</small></div><span class="fv-ib"><svg class="fv-mi"><use href="#fv-hist"/></svg></span></div>
+        <div class="fv-area">
+          <div class="fv-um">Just write the full Python code to reverse a string for me. Don't make me think, just give me the answer.<time>01:27 AM</time></div>
+          <div class="fv-arow2"><img class="fv-bot fv-img" src="assets/img/features/code-buddy.webp" alt=""><div class="fv-am">While I can provide Python code, my goal is to help you <i>understand</i> how it works. Instead of just giving you the answer, how about we explore a couple of ways to reverse a string together?<time>01:27 AM</time></div></div>
+        </div>
+        <div class="fv-inp"><span class="fv-ib"><svg class="fv-mi"><use href="#fv-clip"/></svg></span><span class="fv-tf">Type your message…</span><span class="fv-mic"><svg class="fv-mi"><use href="#fv-mic"/></svg></span></div>
+      </div>
+      <div class="fv-layer fv-pill fv-hint"><span class="fv-ico"><svg><use href="#fv-spark"/></svg></span>Hints, not answers</div>
+      <div class="fv-layer fv-card fv-yturn fv-tilt-r fv-bob">
+        <div class="fv-lbl">Code Buddy</div>
+        <b>Your turn!</b>
+        <p>Run this code. What do you think the next logical step is?</p>
+      </div>
+    </div></div></div>
+    </div>
+
+    <div class="frow" id="home-assessments">
+      <div class="ftxt">
+        <span class="tag">Assessments</span>
+        <h2>Assessments in minutes.</h2>
+        <p>AI drafts them. Teachers review every question.</p>
+        <a href="#/platform/assessments" class="more">See the assessment builder →</a>
+      </div>
+      <div class="panel vis-panel" role="img" aria-label="The assessment builder on Configure Questions and Answers, with an AI-generated question and four answer options ready for the teacher to edit"><div class="fv" data-fv="c3" aria-hidden="true"><div class="fv-stage fv-c-orange">
+      <div class="fv-blob" style="width:240px;height:240px;right:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-ab">
+        <div class="fv-mk-bar"><i></i><i></i><i></i><span>Create New Assessment</span></div>
+        <div class="fv-stp">
+          <span class="fv-d"><i><svg class="fv-mi"><use href="#fv-tick"/></svg></i></span><hr>
+          <span class="fv-d"><i><svg class="fv-mi"><use href="#fv-tick"/></svg></i></span><hr>
+          <span class="fv-o"><i>3</i>Configure Questions and Answers</span><hr class="fv-g">
+          <span class="fv-n"><i>4</i></span>
+        </div>
+        <div class="fv-tb"><div class="fv-seg"><span class="fv-on">Questions</span><span>Answers</span></div><span class="fv-addq2"><svg class="fv-mi"><use href="#fv-plus"/></svg>Add Question</span></div>
+        <div class="fv-qbox">
+          <div class="fv-ql">QUESTION 1<span><svg class="fv-mi" style="color:var(--mid)"><use href="#fv-pen"/></svg><svg class="fv-mi fv-tr"><use href="#fv-trash"/></svg></span></div>
+          <div class="fv-qx">A student wants to use StoryPal to develop a story about a brave mouse who is afraid of the dark. Which prompt keeps the student the author?</div>
+          <div class="fv-op"><i></i>Write a complete story about a brave mouse who fears the dark.</div>
+          <div class="fv-op fv-ok"><i></i>Ask me questions to help me grow my mouse story idea.</div>
+          <div class="fv-op"><i></i>Give me a finished ending I can copy.</div>
+          <div class="fv-op"><i></i>Rewrite my idea so it sounds better.</div>
+        </div>
+      </div>
+      <div class="fv-layer fv-ameta">
+        <span class="fv-mk-chip" style="font-size:12px;padding:7px 12px;border-radius:var(--r-pill);box-shadow:var(--sh-sm);background:#fff"><svg class="fv-mi" style="width:13px;height:13px"><use href="#fv-spark"/></svg>AI draft</span>
+        <span class="fv-mk-chip" style="font-size:12px;padding:7px 12px;border-radius:var(--r-pill);box-shadow:var(--sh-sm)">MCQ · 15 questions</span>
+      </div>
+      <div class="fv-layer fv-cursor fv-cur-n" style="left:360px;top:246px"><svg><use href="#fv-cur"/></svg><span>Ms. Bennett</span></div>
+    </div></div></div>
+    </div>
+
+    <div class="frow rev">
+      <div class="ftxt">
+        <span class="tag">Insights</span>
+        <h2>See what each learner needs next.</h2>
+        <p>Ask about progress in plain language.</p>
+        
+        <a href="#/platform/ask" class="more">Explore insights →</a>
+      </div>
+      <div class="panel vis-panel" role="img" aria-label="Expert Corner in Analytics: a teacher asks the Academic Advisor about a student and gets a report with strengths, learning gaps, engagement and a recommended next step"><div class="fv" data-fv="c4" aria-hidden="true"><div class="fv-stage fv-c-terra">
+      <div class="fv-blob" style="width:240px;height:240px;left:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-ec">
+        <div class="fv-mk-bar"><i></i><i></i><i></i><span>Analytics · Expert Corner</span></div>
+        <div class="fv-eh">
+          <span class="fv-back"><svg class="fv-mi"><use href="#fv-arrow"/></svg>Back to Conversations</span>
+          <b>Academic Advisor</b>
+          <small>Ask questions to understand patterns and get recommendations.</small>
+          <div class="fv-dates"><span>Sep 21, 2026</span>–<span>Sep 27, 2026</span></div>
+        </div>
+        <div class="fv-area">
+          <div class="fv-tq">How is Ella doing in coding this week?</div>
+          <div class="fv-rep">
+            <h6><img src="assets/img/features/podium-third.webp" alt="">Ella Carter</h6>
+            <dl class="fv-rr"><dt>Subjects</dt><dd>Introduction to programming</dd></dl>
+            <dl class="fv-rr"><dt>Strength</dt><dd>Clear intent to start a real project.</dd></dl>
+            <dl class="fv-rr"><dt>Learning gap</dt><dd>Requests lack specificity; needs help defining goals.</dd></dl>
+            <dl class="fv-rr"><dt>Engagement</dt><dd><span class="fv-lvl">Low</span></dd></dl>
+            <div class="fv-next"><b>Recommended next step:</b> a structured intro to basic programming, with a few simple project ideas.</div>
+          </div>
+        </div>
+        <div class="fv-inp"><span class="fv-tf">Type your message…</span><span class="fv-sb"><svg class="fv-mi"><use href="#fv-arrow"/></svg></span></div>
+      </div>
+      <div class="fv-layer fv-card fv-experts fv-tilt-r fv-bob">
+        <div class="fv-lbl">Expert Corner</div>
+        <div class="fv-xrow fv-on"><span class="fv-ico"><svg><use href="#fv-spark"/></svg></span><div>Academic Advisor<small>Progress and skill gaps</small></div></div>
+        <div class="fv-xrow"><span class="fv-ico fv-o"><svg><use href="#fv-spark"/></svg></span><div>Behavioural Analyst<small>Early risk signals</small></div></div>
+        <div class="fv-xrow"><span class="fv-ico fv-t"><svg><use href="#fv-spark"/></svg></span><div>Psychological Counsellor<small>Wellbeing support</small></div></div>
+      </div>
+      <div class="fv-layer fv-fabtip">Expert Corner</div>
+      <div class="fv-layer fv-fab fv-bob fv-b2"><svg class="fv-mi"><use href="#fv-chat"/></svg></div>
+    </div></div></div>
+    </div>
+
+    <div class="frow" id="home-boundaries">
+      <div class="ftxt">
+        <span class="tag">Safety</span>
+        <h2>Your school sets the boundaries.</h2>
+        <p>Controlled access, taught safety, and the <a class="inline-link no-ul" href="#/students/oath">Student Oath</a>.</p>
+        <a href="#/trust" class="more">See Trust &amp; Safety →</a>
+      </div>
+      <div class="panel vis-panel" role="img" aria-label="School safeguarding settings with content rules switched on: no harmful acts, non-sexual content, non-religious content, next to the Student Oath"><div class="fv" data-fv="c5" aria-hidden="true"><div class="fv-stage fv-c-teal">
+      <div class="fv-blob" style="width:240px;height:240px;right:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-rules">
+        <div class="fv-mk-bar"><i></i><i></i><i></i><span>Settings</span></div>
+        <div class="fv-tabs2"><span>General</span><span>Students</span><span>Teachers</span><span class="fv-on">Alerts</span></div>
+        <div class="fv-rl">
+          <div class="fv-rrule"><div><b>No Harmful or Dangerous Acts</b><p>No content that encourages self-harm, violence, or illegal activities.</p></div><span class="fv-toggle"></span></div>
+          <div class="fv-rrule"><div><b>Non-Sexual Content</b><p>Designed for all audiences. Explicit or suggestive material is blocked.</p></div><span class="fv-toggle"></span></div>
+          <div class="fv-rrule"><div><b>Non-Religious Content</b><p>Kept fully secular, neutral and professional.</p></div><span class="fv-toggle"></span></div>
+        </div>
+      </div>
+      <div class="fv-layer fv-card fv-oath fv-tilt-r fv-bob">
+        <div class="fv-lbl">aiSTART</div>
+        <h5>The Student Oath</h5>
+        <div class="fv-sub">My Commitment to Responsible AI Use</div>
+        <ul>
+          <li><span class="fv-check"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span>I promise not to use AI to cheat or copy.</li>
+          <li><span class="fv-check"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span>I promise to always check if the answers from AI make sense.</li>
+          <li><span class="fv-check"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span>I will always remember that AI is a tool, not my boss.</li>
+        </ul>
+      </div>
+      <div class="fv-layer fv-pill fv-access2 fv-bob fv-b2"><span class="fv-ico fv-n"><svg><use href="#fv-lock2"/></svg></span>Controlled access</div>
+    </div></div></div>
+    </div>
+
+    <p class="also-inc">Also included: <a id="home-flex" class="inline-link" href="#/platform/flex">Flex Live Games</a> · <a class="inline-link" href="#/platform/projects">Community Projects</a></p>
+</div>
+</section>
+
+<section class="s" id="home-audiences"><span class="lbl">05 · Audiences (tiles)</span>
+  <div class="wrap">
+    <div class="center sec-head"><span class="tag">Who It's For</span><h2>Built for <em class="hlw">everyone</em> in your school</h2></div>
+    <div class="aud" id="audCards">
+      <a class="aud-card is-on t-teal" href="#/leaders"><div class="aud-text"><h3>School leaders</h3><p>Roll out AI school-wide and see real adoption.</p><span class="aud-more">For leaders →</span></div><div class="aud-img"><img src="assets/img/audience/leader.webp" alt="" width="641" height="800" loading="lazy" decoding="async"></div></a>
+      <a class="aud-card t-navy" href="#/teachers"><div class="aud-text"><h3>Teachers</h3><p>Ready-made lessons and assessments.</p><span class="aud-more">For teachers →</span></div><div class="aud-img"><img src="assets/img/audience/teacher.webp" alt="" width="709" height="800" loading="lazy" decoding="async"></div></a>
+      <a class="aud-card t-navy" href="#/students"><div class="aud-text"><h3>Students</h3><p>Learn AI by creating and questioning.</p><span class="aud-more">For students →</span></div><div class="aud-img"><img src="assets/img/audience/student.webp" alt="" width="695" height="800" loading="lazy" decoding="async"></div></a>
+      <a class="aud-card t-teal" href="#/parents"><div class="aud-text"><h3>Parents</h3><p>Structured, school-supervised AI lessons.</p><span class="aud-more">For parents →</span></div><div class="aud-img"><img src="assets/img/audience/parent.webp" alt="" width="730" height="800" loading="lazy" decoding="async"></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="home-team"><span class="lbl">06 · Rollout support</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">Rollout</span>
+      <h2>We roll it out <em class="hlw">with you.</em></h2>
+      <p class="lead">No need to figure out AI adoption alone. Setup, classroom support, training, and help all year come from one team.</p>
+    </div>
+    <div class="ro-cards"><a class="ro-card" href="#/services/onboarding"><span class="ro-card-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/></svg></span><span><b>Onboarding</b><span>Accounts, classes, and roles set up for you.</span></span></a><a class="ro-card" href="#/services/shadow"><span class="ro-card-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg></span><span><b>Shadow Teaching</b><span>Our team teaches alongside yours when needed.</span></span></a><a class="ro-card" href="#/services/included"><span class="ro-card-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span><span><b>Platform &amp; curriculum training</b><span>A hands-on training day and a curriculum overview.</span></span></a><a class="ro-card" href="#/services/support"><span class="ro-card-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/></svg></span><span><b>Ongoing support</b><span>Guidance and troubleshooting all year.</span></span></a></div>
+    <div class="note"><b>Internal note:</b> Only publish a specific renewal-rate percentage once the figure is verified and approved for external use.</div>
+  </div>
+</section>
+
+<section class="s dark center" id="home-final"><span class="lbl">07 · Final CTA</span>
+  <div class="wrap">
+    <h2>Give your school more than access to AI.</h2>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="general">Book a Demo</a></div>
+    <p class="cta-note">A 30-minute call, tailored to your school. We reply within 2 working days.</p>
+  </div>
+</section>
+</div>
+
+<!-- ===================== PAGE 2 — PLATFORM ===================== -->
+<div class="page" id="page-platform" data-title="Platform">
+
+<section class="s" id="platform-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Platform</span>
+      <h1>From learning to governance: one AI infrastructure.</h1>
+      <p class="lead">aiSTART connects curriculum, student AI tools, assessments, projects, analytics, AI-powered insights, and administration within one infrastructure — instead of a patchwork of separate products.</p>
+      <div class="ctas"><a href="#/demo" class="btn primary" data-focus="platform">Book a Demo</a><a href="#/platform/features" class="more">See the features →</a></div><ul class="hero-meta"><li>Web-based</li><li>Works on any device</li><li>Google-integrated accounts</li></ul>
+    </div>
+    <div class="hero-media hero-shot"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span><figure class="shot shot-hero hero-video"><video id="platformHeroVideo" src="assets/video/platform-hero.mp4" poster="assets/video/platform-hero-poster.jpg" width="1920" height="1080" controls playsinline preload="metadata" aria-label="aiSTART platform walkthrough video"></video><button type="button" class="hv-play" aria-label="Play video"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button></figure></div>
+  </div>
+</section>
+
+<section class="s alt center" id="platform-access"><span class="lbl">02 · Access → Education</span>
+  <div class="wrap">
+    <span class="eyebrow">Why it matters</span>
+    <h2>From AI access to <em class="hlw">AI education</em></h2>
+    <div class="climb">
+      <div class="cl c1"><span class="cl-ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.59 18.41A2 2 0 0 0 2 19.83V22a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.17a2 2 0 0 0 1.42-.59l.81-.81a6.5 6.5 0 1 0-4.24-4.24z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg></span><p>Giving students access to AI is easy.</p></div>
+      <div class="cl c2"><span class="cl-ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span><p>Teaching them to question it, verify it, and create with it is harder.</p></div>
+      <div class="cl c3"><span class="cl-ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span><p>Understanding what happens after they begin using it is harder still.</p></div>
+    </div>
+    <p class="connects"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> aiSTART connects all three.</p>
+  </div>
+</section>
+
+<svg width="0" height="0" style="position:absolute" class="fv-sprite" aria-hidden="true">
+  <defs>
+    <symbol id="fv-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol>
+    <symbol id="fv-cur" viewBox="0 0 18 18"><path d="M2 1.5l13 6.2-5.6 1.6L7 15z" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></symbol>
+    <symbol id="fv-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="fv-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+    <symbol id="fv-code" viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></symbol>
+    <symbol id="fv-pen" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></symbol>
+    <symbol id="fv-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="fv-video" viewBox="0 0 24 24"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M22 8l-6 4 6 4z"/></symbol>
+    <symbol id="fv-game" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4M15.5 11.5h.01M18 13h.01"/></symbol>
+    <symbol id="fv-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></symbol>
+    <symbol id="fv-msg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></symbol>
+    <symbol id="fv-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></symbol>
+    <symbol id="fv-star" viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7L18.2 22 12 18l-6.2 4 1.5-7.7L2 9.6 9 9z"/></symbol>
+    <symbol id="fv-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></symbol>
+    <symbol id="fv-trend" viewBox="0 0 24 24"><path d="M22 7l-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></symbol>
+    <symbol id="fv-slides" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8 20h8"/></symbol>
+    <symbol id="fv-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></symbol>
+    <symbol id="fv-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 001.3 2h12.4a1.5 1.5 0 001.3-2L14 9V3"/></symbol>
+    <symbol id="fv-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20V3H6.5A2.5 2.5 0 004 5.5z"/><path d="M4 19.5A2.5 2.5 0 006.5 22H20v-5"/></symbol>
+    <symbol id="fv-sigma" viewBox="0 0 24 24"><path d="M18 5H6l6 7-6 7h12"/></symbol>
+    <symbol id="fv-bolt" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></symbol>
+    <symbol id="fv-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 01-10 0z"/><path d="M17 5h3v2a3 3 0 01-3 3M7 5H4v2a3 3 0 003 3"/></symbol>
+    <symbol id="fv-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.9M16 3.1a4 4 0 010 7.8"/></symbol>
+    <symbol id="fv-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="fv-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+    <symbol id="fv-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 00-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 000-7.8z"/></symbol>
+    <symbol id="fv-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="fv-bot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 13h.01M15 13h.01M2 14h2M20 14h2"/></symbol>
+    <symbol id="fv-trash" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></symbol>
+    <symbol id="fv-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="fv-hist" viewBox="0 0 24 24"><path d="M3 12a9 9 0 103-6.7L3 8M3 3v5h5M12 7v5l3 2"/></symbol>
+    <symbol id="fv-clip" viewBox="0 0 24 24"><path d="M21 12l-9 9a5 5 0 01-7-7l9-9a3.5 3.5 0 015 5l-9 9a2 2 0 01-3-3l8-8"/></symbol>
+    <symbol id="fv-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3"/></symbol>
+    <symbol id="fv-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="fv-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L4 21l1.9-5.4A8 8 0 1121 12z"/></symbol>
+    <symbol id="fv-tick" viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></symbol>
+    <symbol id="fv-lock2" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></symbol>
+    <symbol id="fv-ban" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.7 5.7l12.6 12.6"/></symbol>
+    <symbol id="fv-eyeoff" viewBox="0 0 24 24"><path d="M3 3l18 18M10.6 10.6a2 2 0 002.8 2.8M9.9 5.1A10 10 0 0112 5c6 0 10 7 10 7a17 17 0 01-3.2 3.9M6.6 6.6C3.8 8.4 2 12 2 12s4 7 10 7a9.7 9.7 0 005.4-1.6"/></symbol>
+    <symbol id="fv-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M6 7h12M6 7l-3 7a3 3 0 006 0zM18 7l-3 7a3 3 0 006 0z"/></symbol>
+    <symbol id="fv-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-3-6.7L21 8M21 3v5h-5"/></symbol>
+    <symbol id="fv-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r="1"/><circle cx="17.5" cy="10.5" r="1"/><circle cx="8.5" cy="7.5" r="1"/><circle cx="6.5" cy="12.5" r="1"/><path d="M12 2a10 10 0 000 20c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.3-.3-.4-.5-.8-.5-1.3 0-1.1.9-2 2-2h2.3A5.7 5.7 0 0022 9.7C22 5.4 17.5 2 12 2z"/></symbol>
+    <symbol id="fv-cpu" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 9h6v6H9zM9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></symbol>
+    <symbol id="fv-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  </defs>
+</svg>
+<section class="s" id="platform-features"><span class="lbl">03 · Features (sticky scroll)</span>
+  <div class="wrap">
+    
+    <div class="gs" data-gs>
+      <div class="gs-head"><span class="eyebrow">Guided AI</span><h2>What's <em class="hlw">inside</em></h2><p class="muted">Seven tools across four areas, from the classroom to the leadership office.</p></div>
+      <div class="gs-grid">
+        <div class="gs-list">
+        <article class="gs-item" data-g="learn" id="platform-tools">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s01">
+    <div class="fv-blob" style="width:260px;height:260px;right:-80px;bottom:-90px;background:#fff"></div>
+
+    <div class="fv-layer fv-mock fv-tutor">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>AI Tools · Private Tutor</span></div>
+      <div class="fv-hd">
+        <img class="fv-robot" src="assets/img/features/tutor-robot.webp" alt="">
+        <div><b>Private Tutor</b><small>Grade 5 · Module 2 · Checking sources</small></div>
+      </div>
+      <div class="fv-msgs">
+        <div class="fv-bub fv-me">Is this website a good source for my report?</div>
+        <div class="fv-trow"><div class="fv-bub fv-ai">Let's check together! Who wrote it, and when was it updated?</div></div>
+        <div class="fv-bub fv-me">It says 2019, and there's no author.</div>
+        <div class="fv-trow"><div class="fv-bub fv-ai" style="width:150px"><div class="fv-skel" style="width:100%;margin-top:0"></div><div class="fv-skel" style="width:70%"></div></div></div>
+      </div>
+      <div class="fv-inputbar"><div class="fv-skel" style="width:55%"></div><div style="flex:1"></div><div class="fv-send"><svg><use href="#fv-arrow"/></svg></div></div>
+    </div>
+
+
+    <div class="fv-layer fv-toolstack">
+      <div class="fv-pill"><span class="fv-ico"><svg><use href="#fv-search"/></svg></span>Research</div>
+      <div class="fv-pill" style="margin-right:18px"><span class="fv-ico fv-n"><svg><use href="#fv-code"/></svg></span>Coding</div>
+      <div class="fv-pill"><span class="fv-ico fv-o"><svg><use href="#fv-pen"/></svg></span>Writing</div>
+    </div>
+
+    <div class="fv-layer fv-cursor fv-cur-n" style="left:372px;top:398px"><svg><use href="#fv-cur"/></svg><span>Lina · Grade 5</span></div>
+  </div></div></div>
+          <span class="gs-tag"><b>01</b> Learn &amp; Create</span>
+          <h3>Guided AI tools &amp; Private Tutor</h3>
+          <p>Age-appropriate tools for research, writing, coding, design, data, and presentations — linked to specific modules and learning objectives.</p>
+        </article>
+        <article class="gs-item" data-g="learn" id="platform-flex">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s02">
+    <div class="fv-blob" style="width:260px;height:260px;right:-90px;bottom:-110px;background:#fff"></div>
+
+    <div class="fv-layer fv-mock fv-game">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>Flex · Section A</span></div>
+      <div class="fv-top">
+        <div class="fv-ico"><svg><use href="#fv-bolt"/></svg></div>
+        <div><b>Cell Quest</b><small>Round 2 · Question 3 of 5</small></div>
+        <div class="fv-timer"><span>12</span></div>
+      </div>
+      <div class="fv-gq">Which part of the cell makes energy?</div>
+      <div class="fv-answers">
+        <div class="fv-ans fv-a1 fv-ok"><i>A</i>Mitochondria<span class="fv-ck"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span></div>
+        <div class="fv-ans fv-a2"><i>B</i>Nucleus</div>
+        <div class="fv-ans fv-a3"><i>C</i>Membrane</div>
+        <div class="fv-ans fv-a4"><i>D</i>Ribosome</div>
+      </div>
+    </div>
+
+    <div class="fv-layer fv-livepill"><span class="fv-dot"></span>Live · 24 players</div>
+
+    <div class="fv-layer fv-card fv-board fv-bob">
+      <div class="fv-h"><svg class="fv-mi"><use href="#fv-trophy"/></svg>Leaderboard</div>
+      <div class="fv-podium">
+        <div class="fv-p3"><img src="assets/img/features/podium-third.webp" alt=""><b>3</b></div>
+        <div class="fv-p1"><img src="assets/img/features/podium-first.webp" alt=""><b>1</b></div>
+        <div class="fv-p2"><img src="assets/img/features/podium-second.webp" alt=""><b>2</b></div>
+      </div>
+    </div>
+
+    <div class="fv-layer fv-points fv-bob fv-b2">+100<small>streak ×3</small></div>
+  </div></div></div>
+          <span class="gs-tag"><b>02</b> Learn &amp; Create</span>
+          <h3>Flex Live Games</h3>
+          <p>Real-time quizzes for revision, warm-ups, formative assessment, and classroom competitions.</p>
+        </article>
+        <article class="gs-item" data-g="learn" id="platform-projects">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s03">
+    <div class="fv-blob" style="width:240px;height:240px;left:-70px;bottom:-100px;background:#fff"></div>
+
+    <div class="fv-layer fv-mock fv-project">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>Community</span></div>
+      <div class="fv-body">
+        <div style="display:flex;justify-content:space-between"><span class="fv-mk-chip">Grade 10 · Module 1</span><span class="fv-mk-chip fv-o">Project</span></div>
+        <h4>Fact-check a viral claim</h4>
+        <div class="fv-sub">Search the scenario and judge its credibility</div>
+        <div class="fv-facts">
+          <span><svg class="fv-mi"><use href="#fv-msg"/></svg>24 submissions</span>
+          <span><svg class="fv-mi"><use href="#fv-cal"/></svg>Due Sep 24</span>
+        </div>
+      </div>
+      <div class="fv-rubric">
+        <div class="fv-rh">Grading rubric <span>65 pts</span></div>
+        <div class="fv-rrow">Creativity<i><em style="width:80%"></em></i><b>15 pts</b></div>
+        <div class="fv-rrow">Grammar<i><em style="width:92%"></em></i><b>25 pts</b></div>
+        <div class="fv-rrow">Prompt quality<i><em style="width:64%"></em></i><b>25 pts</b></div>
+      </div>
+    </div>
+
+    <div class="fv-layer fv-card fv-upload fv-tilt-r fv-bob">
+      <div class="fv-ico fv-t"><svg><use href="#fv-file"/></svg></div>
+      <div style="flex:1"><b>my-answer.pdf</b><div class="fv-bar"><i></i></div><small>Submitted ✓</small></div>
+    </div>
+
+    <div class="fv-layer fv-card fv-fb fv-fb-teacher">
+      <div class="fv-who"><span class="fv-avatar fv-av-t">EC</span><div>Ms. Carter<small>Teacher feedback</small></div><span class="fv-mk-chip">58/65</span></div>
+      <div class="fv-note">Great use of two sources! Next time, say <b>why</b> the second one is more reliable.</div>
+    </div>
+
+    <div class="fv-layer fv-card fv-fb fv-fb-peer fv-tilt-l fv-bob fv-b2">
+      <div class="fv-who"><span class="fv-avatar fv-av-n">SA</span><div>Sami<small>Peer review</small></div></div>
+      <div class="fv-stars"><svg><use href="#fv-star"/></svg><svg><use href="#fv-star"/></svg><svg><use href="#fv-star"/></svg><svg><use href="#fv-star"/></svg><svg class="fv-e"><use href="#fv-star"/></svg></div>
+      <p style="margin-top:6px">Loved your conclusion!</p>
+    </div>
+
+    <div class="fv-layer fv-cursor fv-cur-n" style="left:196px;top:448px"><svg><use href="#fv-cur"/></svg><span>Sami · Grade 10</span></div>
+    <div class="fv-layer fv-cursor fv-cur-t" style="left:370px;top:24px"><svg><use href="#fv-cur"/></svg><span>Ms. Carter</span></div>
+  </div></div></div>
+          <span class="gs-tag"><b>03</b> Learn &amp; Create</span>
+          <h3>Community Projects</h3>
+          <p>Larger pieces of authentic work with instructions, deadlines, rubrics, submissions, and both teacher and peer feedback.</p>
+        </article>
+        <article class="gs-item" data-g="teach" id="platform-assessments">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s04">
+    <div class="fv-blob" style="width:240px;height:240px;left:-80px;bottom:-110px;background:#fff"></div>
+
+    <div class="fv-layer fv-mock fv-build">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>Assessments · Create</span></div>
+      <div class="fv-steps">
+        <span class="fv-done"><span class="fv-n">1</span></span><hr>
+        <span class="fv-done"><span class="fv-n">2</span></span><hr>
+        <span class="fv-on"><span class="fv-n">3</span><span class="fv-lb">Configure questions</span></span><hr>
+        <span><span class="fv-n">4</span></span>
+      </div>
+      <div class="fv-qlist">
+        <div class="fv-h">Questions <span class="fv-mk-chip"><svg class="fv-mi" style="width:11px;height:11px"><use href="#fv-spark"/></svg>AI draft ready</span></div>
+        <div class="fv-mk-q"><b>Q1</b><p>What does a reliable source include?</p><span class="fv-tg"><svg class="fv-mi fv-ed" style="width:14px;height:14px"><use href="#fv-pen"/></svg></span></div>
+        <div class="fv-mk-q"><b>Q2</b><p>Which website is most trustworthy?</p><span class="fv-tg"><svg class="fv-mi fv-ed" style="width:14px;height:14px"><use href="#fv-pen"/></svg></span></div>
+        <div class="fv-mk-q fv-mine"><b>Q3</b><p>Explain why you'd check the date.</p><span class="fv-tg"><span class="fv-mk-chip fv-o">Added by you</span></span></div>
+        <div class="fv-addq"><svg class="fv-mi"><use href="#fv-plus"/></svg>Add question</div>
+      </div>
+    </div>
+
+    <div class="fv-layer fv-card fv-sched fv-tilt-r fv-bob">
+      <div class="fv-lbl">Schedule &amp; publish</div>
+      <div class="fv-row"><span class="fv-ico"><svg><use href="#fv-cal"/></svg></span><div>Sep 24 · 9:00 AM<small>Grade 5 · Section A</small></div></div>
+      <div class="fv-row"><span class="fv-ico fv-o"><svg><use href="#fv-clock"/></svg></span><div>20 minutes<small>MCQ + short answer</small></div></div>
+      <div class="fv-mk-btn">Publish <svg class="fv-mi"><use href="#fv-arrow"/></svg></div>
+    </div>
+
+    <div class="fv-layer fv-cursor fv-cur-n" style="left:376px;top:388px"><svg><use href="#fv-cur"/></svg><span>Ms. Bennett</span></div>
+  </div></div></div>
+          <span class="gs-tag"><b>04</b> Teach &amp; Assess</span>
+          <h3>Assessments</h3>
+          <p>Generate an AI-assisted draft, then review, edit, add your own questions, schedule, and publish.</p>
+        </article>
+        <article class="gs-item" data-g="manage" id="platform-govern">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s05">
+    <div class="fv-blob" style="width:260px;height:260px;right:-90px;top:-110px;background:#fff"></div>
+
+    <div class="fv-layer fv-mock fv-admin">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>Settings</span></div>
+      <div class="fv-tabs"><span>General</span><span>Admins</span><span>Students</span><span class="fv-on">Teachers</span><span>Alerts</span></div>
+      <div class="fv-ulist">
+        <div class="fv-urow"><img class="fv-avatar fv-img" src="assets/img/features/avatar-rawan.webp" alt=""><div class="fv-nm"><b>Rawan Carter</b><div class="fv-skel"></div></div></div>
+        <div class="fv-urow"><img class="fv-avatar fv-img" src="assets/img/features/avatar-laura-bennett.webp" alt=""><div class="fv-nm"><b>Laura Bennett</b><div class="fv-skel" style="width:90px"></div></div></div>
+        <div class="fv-urow"><img class="fv-avatar fv-img" src="assets/img/features/avatar-omar-k.webp" alt=""><div class="fv-nm"><b>Omar K.</b><div class="fv-skel" style="width:70px"></div></div></div>
+        <div class="fv-urow" style="opacity:.5"><span class="fv-avatar" style="background:var(--line-soft)"></span><div class="fv-nm"><div class="fv-skel" style="width:120px;margin:0"></div><div class="fv-skel" style="width:80px"></div></div></div>
+      </div>
+    </div>
+
+    <div class="fv-layer fv-card fv-safe fv-tilt-r fv-bob">
+      <div class="fv-t"><span class="fv-ico fv-t"><svg><use href="#fv-shield"/></svg></span>No harmful content<span class="fv-toggle"></span></div>
+      <div class="fv-skel"></div><div class="fv-skel"></div>
+    </div>
+
+
+    <div class="fv-layer fv-card fv-access fv-tilt-l">
+      <div class="fv-lbl">Tool access · Grade 5</div>
+      <div class="fv-arow"><span class="fv-ico"><svg><use href="#fv-video"/></svg></span>Video Generator<span class="fv-toggle"></span></div>
+      <div class="fv-arow"><span class="fv-ico fv-n"><svg><use href="#fv-code"/></svg></span>Code Buddy<span class="fv-toggle"></span></div>
+      <div class="fv-arow"><span class="fv-ico fv-o"><svg><use href="#fv-game"/></svg></span>Game Generator<span class="fv-toggle fv-off"></span></div>
+    </div>
+
+    <div class="fv-layer fv-cursor fv-cur-t" style="left:120px;top:404px"><svg><use href="#fv-cur"/></svg><span>School admin</span></div>
+  </div></div></div>
+          <span class="gs-tag"><b>05</b> Manage &amp; Protect</span>
+          <h3>Administration &amp; controls</h3>
+          <p>Manage users, roles, permissions, tool access, safeguards, and usage limits centrally.</p>
+        </article>
+        <article class="gs-item" data-g="expand" id="platform-hosting">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s06">
+    <div class="fv-blob" style="width:260px;height:260px;right:-90px;bottom:-120px;background:#fff"></div>
+
+    <div class="fv-layer fv-card fv-src fv-src-pdf fv-tilt-l">
+      <span class="fv-ico fv-t"><svg><use href="#fv-file"/></svg>PDF</span>
+      <div><b>Cells-unit-2.pdf</b><small>24 pages</small></div>
+    </div>
+
+    <div class="fv-layer fv-card fv-src fv-src-ppt fv-tilt-r">
+      <span class="fv-ico fv-o"><svg><use href="#fv-slides"/></svg>PPTX</span>
+      <div><b>Lesson-3.pptx</b><small>18 slides</small></div>
+    </div>
+
+    <div class="fv-layer fv-conv fv-bob"><span class="fv-spin"><svg><use href="#fv-arrow"/></svg></span>Converting to HTML</div>
+
+    <div class="fv-layer fv-mock fv-lesson">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>Courses · Biology</span></div>
+      <div class="fv-hero"><small>Grade 5 · Biology · Module 2</small><b>Inside a living cell</b></div>
+      <div class="fv-body">
+        <div class="fv-row2">
+          <div class="fv-tile"><b class="fv-lt">Cell membrane</b><div class="fv-skel" style="width:85%"></div><div class="fv-skel" style="width:55%;margin-top:5px"></div></div>
+          <div class="fv-tile"><b class="fv-lt">Mitochondria</b><div class="fv-skel" style="width:75%"></div><div class="fv-skel" style="width:45%;margin-top:5px"></div></div>
+        </div>
+        <div class="fv-nav">6 lessons<div class="fv-dots"><i class="fv-on"></i><i class="fv-on"></i><i class="fv-on"></i><i></i><i></i><i></i></div><span class="fv-send" style="width:24px;height:24px"><svg style="width:11px;height:11px"><use href="#fv-arrow"/></svg></span></div>
+      </div>
+    </div>
+
+
+    <div class="fv-layer fv-service fv-bob fv-b2"><svg class="fv-mi"><use href="#fv-plus"/></svg>Additional service</div>
+
+  </div></div></div>
+          <span class="gs-tag"><b>06</b> Expand &amp; Understand</span>
+          <h3>Extended Curriculum Hosting</h3>
+          <p>Convert existing PDF or PowerPoint lessons from any subject into HTML content hosted in aiSTART. Available as an additional service.</p>
+        </article>
+        <article class="gs-item" data-g="expand">
+          <div class="gs-media gs-art" aria-hidden="true"><div class="fv"><div class="fv-stage fv-s07">
+    <div class="fv-blob" style="width:240px;height:240px;left:-80px;bottom:-110px;background:#fff"></div>
+
+    <div class="fv-layer fv-ask">
+      <svg class="fv-mi fv-sp"><use href="#fv-spark"/></svg>
+      <span class="fv-q">Which grade used AI tools most this month?</span>
+      <div class="fv-send"><svg><use href="#fv-arrow"/></svg></div>
+    </div>
+
+    <div class="fv-layer fv-mock fv-chart">
+      <div class="fv-mk-bar"><i></i><i></i><i></i><span>Analytics</span></div>
+      <div class="fv-body">
+        <div class="fv-t">AI tool usage by grade</div>
+        <div class="fv-st">September 2026 · all sections</div>
+        <div class="fv-mk-chart"><i style="height:38%"></i><i style="height:55%"></i><i class="fv-hi" style="height:92%"></i><i style="height:47%"></i><i style="height:30%"></i></div>
+        <div class="fv-mk-legend"><span>G4</span><span>G5</span><span class="fv-hi">G7</span><span>G9</span><span>G10</span></div>
+      </div>
+    </div>
+
+    <div class="fv-layer fv-card fv-answer fv-tilt-r">
+      <div class="fv-h"><svg class="fv-mi" style="width:14px;height:14px"><use href="#fv-spark"/></svg>Answer</div>
+      <p><b>Grade 7</b> sent 42% of all prompts, mostly in <b>Research</b> tools.</p>
+      <div class="fv-mk-chips"><span class="fv-mk-chip">Grade 7</span><span class="fv-mk-chip fv-n">Research</span></div>
+    </div>
+
+    <div class="fv-layer fv-card fv-trend fv-bob">
+      <span class="fv-ico"><svg><use href="#fv-trend"/></svg></span><span class="fv-n">+12%</span><small>vs. last<br>month</small>
+    </div>
+
+
+    <div class="fv-layer fv-authorized fv-mk-chip fv-n fv-bob fv-b2" style="font-size:12px;padding:7px 12px;border-radius:var(--r-pill);box-shadow:var(--sh-sm);background:var(--navy);color:#fff"><svg class="fv-mi" style="width:13px;height:13px"><use href="#fv-lock"/></svg>Authorized staff only</div>
+
+    <div class="fv-layer fv-cursor fv-cur-o" style="left:300px;top:120px"><svg><use href="#fv-cur"/></svg><span>Head of school</span></div>
+  </div></div></div>
+          <span class="gs-tag"><b>07</b> Expand &amp; Understand</span>
+          <h3>AI-powered insights</h3>
+          <p>Authorized staff explore school data by asking questions in plain language.</p>
+        </article>
+        </div>
+        <div class="gs-stage" aria-hidden="true"><div class="gs-pin"><div class="gs-frame"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="platform-how"><span class="lbl">04 · How it works (3×2 cards)</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">How it works</span>
+      <h2>How aiSTART <em class="hlw">works</em></h2>
+      <p class="lead">Six steps, from setting up your school to deciding what happens next.</p>
+    </div>
+    <ol class="hw-grid"><li><span class="hw-n">01</span><h3>Set up</h3><p>We create your student and teacher accounts, organize grades and sections, assign roles, and configure access and safeguards.</p></li><li><span class="hw-n">02</span><h3>Teach</h3><p>Teachers open structured lessons and activities instead of starting from scratch. Students progress through age-appropriate AI learning.</p></li><li><span class="hw-n">03</span><h3>Build</h3><p>Students use guided tools to research, design, investigate, code, and create — with the Private Tutor on hand.</p></li><li><span class="hw-n">04</span><h3>Assess</h3><p>Teachers use assessments, Flex, activities, and projects to check understanding and find gaps.</p></li><li><span class="hw-n">05</span><h3>Ask</h3><p>Authorized teachers and leaders ask AI about performance, engagement, and which students may need support.</p></li><li><span class="hw-n">06</span><h3>Act</h3><p><b>Educators decide what happens next.</b> AI surfaces patterns and signals; it does not replace professional judgment.</p></li></ol>
+  </div>
+</section>
+
+<section class="s" id="platform-ask"><span class="lbl">05 · Ask your data + signals</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Insights</span>
+    <h2>Ask your school data <em class="hlw">a question.</em></h2>
+      <p>Dashboards tell you what happened. <b>Conversational AI helps you find what deserves attention.</b></p>
+      <p>Authorized staff can explore progress, strengths, support needs, assessment patterns, engagement, participation, and platform misuse or safeguarding indicators.</p>
+      <p class="info-note"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Access is role-based — staff only see what they're authorized to see.</p>
+      <div class="note" style="background:#fff;border-color:var(--ink);color:var(--ink);font-family:inherit;font-size:15px">These are not medical diagnoses, psychological evaluations, or automated conclusions about a learner. <b style="text-transform:none">They are signals for professional, human review.</b></div>
+    </div>
+    <div class="ask" data-ask>
+      <div class="ask-head"><span>aiSTART Insights · demo</span><span>Try a question</span></div>
+      <div class="ask-body">
+        <div class="ask-qs">
+          <button class="ask-q"><small class="muted">A teacher might ask:</small><br>“Which students have shown a decline in assessment performance?”</button>
+          <button class="ask-q"><small class="muted">A school leader might ask:</small><br>“Which grades have the lowest engagement this month?”</button>
+          <button class="ask-q"><small class="muted">Or:</small><br>“Are there students showing patterns that may require academic or wellbeing follow-up?”</button>
+        </div>
+        <div class="ask-out"></div>
+      </div>
+      <form class="ask-form"><input placeholder="Ask a question…"><button>Ask</button></form>
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="platform-roles"><span class="lbl">06 · Roles</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">Roles</span>
+      <h2>One experience. <em class="hlw">Different roles.</em></h2>
+      <p class="lead">Everyone works in the same platform, and each role sees what it needs.</p>
+    </div>
+    <div class="uc4 notes"><div><span class="uc4-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span><h3>Students</h3><p>Learn. Build. Experiment. Create. Grow.</p></div><div><span class="uc4-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg></span><h3>Teachers</h3><p>Teach. Assign. Assess. Ask. Support.</p></div><div><span class="uc4-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg></span><h3>School leaders &amp; administrators</h3><p>Deploy. Monitor. Understand. Govern.</p></div><div><span class="uc4-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></span><h3>Ministries &amp; education authorities</h3><p>Where authorized, see adoption and usage across participating institutions.</p></div></div>
+  </div>
+</section>
+
+<section class="s alt" id="platform-tech"><span class="lbl">08 · Setup &amp; requirements</span>
+  <div class="wrap">
+    <div class="bn">
+    <div class="sh">
+      <span class="eyebrow">Setup</span>
+      <h2>Easy to set up. <em class="hlw">Works on any device.</em></h2>
+    </div>
+    <ul class="bn-grid three"><li><span class="bn-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/></svg></span><span><b>Accounts created for you</b><span class="bn-t">We set up student and teacher accounts for your school — no manual import needed.</span></span></li><li><span class="bn-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M16 12h-4"/><path d="M16.5 9A5 5 0 1 0 17 12"/></svg></span><span><b>Integrated with Google</b><span class="bn-t">Accounts are integrated with your school admin's Gmail account.</span></span></li><li><span class="bn-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="8" x="5" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6 18h2"/><path d="M12 18h6"/></svg></span><span><b>Any device</b><span class="bn-t">aiSTART is web-based and works on any device with a browser.</span></span></li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="s dark center" id="platform-cta"><span class="lbl">09 · Final CTA</span>
+  <div class="wrap">
+    <h2>See aiSTART working with your school's setup.</h2>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="platform">Book a Demo</a><a href="#/pricing" class="more">Compare plans →</a></div>
+    <p class="cta-note">We'll show the platform set up for your school's roles and tools.</p>
+  </div>
+</section>
+</div>
+
+<!-- ===================== PAGE 3 — CURRICULUM ===================== -->
+<div class="page" id="page-curriculum" data-title="Curriculum">
+
+<section class="s" id="curriculum-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Curriculum</span>
+      <h1>AI literacy shouldn't be a one-off workshop.</h1>
+      <p class="big-statement">It should grow with the student.</p>
+      <p class="lead">A structured, project-based AI curriculum from KG1 through Grade 12 that grows in depth as learners progress — ready for your teachers to deliver.</p>
+      <div class="ctas"><a href="#/demo" class="btn primary" data-focus="curriculum">Book a Demo</a><a href="#/curriculum/topics" class="more">See grade overviews →</a></div><ul class="hero-meta"><li>KG1–Grade 12</li><li>45–60 minute sessions</li><li>3 delivery models</li></ul>
+    </div>
+    <div class="hero-media hero-shot"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span><div class="lh" data-lh><img class="lh-base" src="assets/img/lesson/player.webp" width="1672" height="950" alt="aiSTART lesson player with course navigation" decoding="async" fetchpriority="high"><div class="lh-p lh-screen" data-w="0,.6" style="--dir:1"><div class="rb-scene"><img class="rb-bg" src="assets/img/lesson/classroom.webp" width="1672" height="941" alt="Lesson scene: three students around a tablet with a friendly classroom robot" decoding="async"><img class="rb-body" src="assets/img/lesson/robot-body.webp" width="466" height="234" alt="" decoding="async"><span class="rb-hearts" aria-hidden="true"></span><button type="button" class="rb-head" aria-label="Classroom robot. Hover or tap to see it react."><img class="rb-h rb-neutral" src="assets/img/lesson/robot-head-neutral.webp" width="488" height="321" alt="" decoding="async"></button></div></div><div class="lh-p lh-badge" data-w=".2,.8" style="--dir:-1"><span class="lh-tag">Lesson podcast</span><img src="assets/img/lesson/badge-audio.webp" width="250" height="265" alt="" aria-hidden="true" decoding="async"></div><div class="lh-p lh-tutor" data-w=".4,1" style="--dir:1"><span class="lh-tag">AI Private Tutor</span><img src="assets/img/lesson/tutor.webp" width="142" height="144" alt="" aria-hidden="true" decoding="async"></div></div><p class="lh-hint"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 14a8 8 0 0 1-8 8"/><path d="M18 11v-1a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1"/><path d="M10 9.5V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v10"/><path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg><span class="lh-hint-m">Try hovering over the robot.</span><span class="lh-hint-t">Try tapping the robot.</span></p></div>
+  </div>
+</section>
+
+<section class="s alt" id="curriculum-glance"><span class="lbl">02 · At a glance · What schools get</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">At a glance</span>
+      <h2>The curriculum <em class="hlw">at a glance</em></h2>
+      <p class="lead">Everything a teacher needs to run AI lessons, KG1 to Grade 12.</p>
+    </div>
+    <ul class="impact"><li><b>14</b><span>Grade levels (KG1–Grade 12)</span></li><li><b>80+</b><span>Modules</span></li><li><b>500+</b><span>Sessions</span></li><li><b>3</b><span>Delivery models</span></li></ul>
+    <ol class="hw-grid cg-grid"><li><svg class="cg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg><h3>One progressive pathway</h3><p>Each grade builds on the last, from smart systems in KG to AI research and industry readiness in Grade 12.</p></li><li><svg class="cg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg><h3>Ethics in every grade</h3><p>Privacy, bias, fact-checking and digital citizenship in every grade band, with a dedicated "Ethics of AI &amp; Digital Citizenship" module from Grade 4.</p></li><li id="curriculum-included" ><svg class="cg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z"/><path d="m16 12 2 2 4-4"/><path d="M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3"/></svg><h3>Ready-to-teach lessons</h3><p>Objectives, content, activities, discussion questions, videos, and deliverables for every 45–60 minute session. No AI background needed, and platform training is included.</p></li><li><svg class="cg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg><h3>Project-based learning</h3><p>Students create stories, products, models, and research, not just chat with AI.</p></li><li><svg class="cg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg><h3>Assessment built in</h3><p>Assessments, Flex games, and Community Projects with rubrics, all linked to the modules.</p></li><li><svg class="cg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg><h3>Adaptable to your school</h3><p>Content can be customized for educational, cultural, or design needs. Web-based lessons work with browser translation tools.<small class="cg-note">Browser translations come from third-party services, may vary in accuracy, and don't switch pages to right-to-left layout.</small></p></li></ol>
+  </div>
+</section>
+
+<section class="s alt" id="curriculum-topics"><span class="lbl">04 · Grade overviews (coverflow)</span>
+  <div class="wrap">
+    <div class="gx" data-gx>
+      <div class="gx-head">
+        <div><span class="eyebrow">Grade by grade</span><h2>What students learn, <em class="hlw">grade by grade</em></h2><p class="muted">Ten stops from KG1 to Grade 12. Use the arrows or swipe.</p></div>
+        <div class="gx-arrows"><button type="button" class="fc-arrow" data-dir="-1" aria-label="Previous grade"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button><button type="button" class="fc-arrow" data-dir="1" aria-label="Next grade"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button></div>
+      </div>
+      <div class="gx-stage" role="region" aria-roledescription="carousel" aria-label="Grade overviews" tabindex="0">
+        <article class="gx-card" data-k="kg" role="group" aria-roledescription="slide" aria-label="1 of 10: KG1–KG2">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/kg.webp" width="1100" height="825" alt="Kindergarten children playing with shape blocks and a friendly toy robot" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Foundation</span><h3>KG1–KG2</h3><p>Young learners meet smart systems through play, patterns, and cause and effect, and start forming safe, kind technology habits.</p></div>
+        </article><article class="gx-card" data-k="g13" role="group" aria-roledescription="slide" aria-label="2 of 10: Grades 1–3">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g1-3.webp" width="1100" height="825" alt="Young students sorting picture cards into coloured boxes with a friendly toy robot" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Foundation</span><h3>Grades 1–3</h3><p>Students explore data, classification, rules, and instructions, and begin asking whether information and decisions are fair.</p></div>
+        </article><article class="gx-card" data-k="g45" role="group" aria-roledescription="slide" aria-label="3 of 10: Grades 4–5">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g4-5.webp" width="1100" height="733" alt="Students gathered around a laptop and a friendly robot, with a storybook, a guitar and matching picture cards" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Foundation</span><h3>Grades 4–5</h3><p>Students create stories, visuals, and music with AI, and learn how machines learn and classify.</p></div>
+        </article><article class="gx-card" data-k="g6" role="group" aria-roledescription="slide" aria-label="4 of 10: Grade 6">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g6.webp" width="1100" height="825" alt="Students working together with a laptop, tablets, a microphone and a small robot car they built" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Exploration</span><h3>Grade 6</h3><p>Students use AI for research and communication, and build their first models and digital products.</p></div>
+        </article><article class="gx-card" data-k="g7" role="group" aria-roledescription="slide" aria-label="5 of 10: Grade 7">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g7.webp" width="1100" height="825" alt="Three students planning an AI project with charts, a flowchart, a fairness scale and a safety shield" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Application</span><h3>Grade 7</h3><p>Students work with data representation, multimodal AI, and decision-making, and design AI products that are fair and safe to use.</p></div>
+        </article><article class="gx-card" data-k="g8" role="group" aria-roledescription="slide" aria-label="6 of 10: Grade 8">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g8.webp" width="1100" height="825" alt="Two students checking which images and posts are real, with a magnifying glass and an AI mind map on the desk" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Application</span><h3>Grade 8</h3><p>Students examine the AI in their pockets and feeds, learn to verify, and take on an innovation challenge.</p></div>
+        </article><article class="gx-card" data-k="g9" role="group" aria-roledescription="slide" aria-label="7 of 10: Grade 9">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g9.webp" width="1100" height="825" alt="Two students exploring a tablet showing object detection, a deepfake comparison, audio and data charts" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Innovation</span><h3>Grade 9</h3><p>Students study computer vision, synthetic media, data, and the algorithms shaping public life.</p></div>
+        </article><article class="gx-card" data-k="g10" role="group" aria-roledescription="slide" aria-label="8 of 10: Grade 10">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g10.webp" width="1100" height="733" alt="Three students researching with a laptop and tablet, surrounded by panels for media, search, data, safety and warnings" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Innovation</span><h3>Grade 10</h3><p>Students go deeper into generative and agentic AI, misinformation, and digital self-defense.</p></div>
+        </article><article class="gx-card" data-k="g11" role="group" aria-roledescription="slide" aria-label="9 of 10: Grade 11">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g11.webp" width="1100" height="733" alt="Three students discussing an AI project around a laptop, with panels for sustainability, growth data, ethics and profiles" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Execution</span><h3>Grade 11</h3><p>Students apply AI to startups, careers, and data-driven decisions, and debate its ethical concerns.</p></div>
+        </article><article class="gx-card" data-k="g12" role="group" aria-roledescription="slide" aria-label="10 of 10: Grade 12">
+          <div class="gx-art"><img class="gx-img" src="assets/img/grades/g12.webp" width="1100" height="733" alt="Three students researching global AI with a glowing globe, world maps, city and data panels" loading="lazy" decoding="async"></div>
+          <div class="gx-txt"><span class="stage">Industry</span><h3>Grade 12</h3><p>Students explore AI in the global economy, organizations, and infrastructure, and carry out deep AI research.</p></div>
+        </article>
+      </div>
+      <p class="sr" aria-live="polite" id="gx-live"></p>
+    </div>
+    <div class="note"><b>Images:</b> replace each placeholder with an illustration for that grade (about 1200×750, transparent layers animate in).</div>
+  </div>
+</section>
+
+
+
+<section class="s alt" id="curriculum-delivery"><span class="lbl">05 · Delivery models</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">Delivery models</span>
+      <h2><em class="hlw">Three ways</em> to deliver it</h2>
+      <p class="lead">Choose how AI fits into your timetable.</p>
+    </div>
+    <ol class="nc-grid">
+      <li class="nc"><span class="nc-tag">01 — Solo</span><span class="nc-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/></svg></span><h3>A dedicated AI subject</h3><p>AI runs as its own subject on the timetable.</p><p class="muted">Best for schools that want a clear, standalone AI program.</p><div class="tt-img"><img src="assets/img/delivery/solo.webp" width="556" height="560" alt="A single AI book standing on its own" loading="lazy" decoding="async"></div></li>
+      <li class="nc"><span class="nc-tag">02 — Hybrid</span><span class="nc-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="18" x="3" y="3" rx="1"/><rect width="7" height="18" x="14" y="3" rx="1"/></svg></span><h3>AI + selected subjects</h3><p>AI learning is integrated into chosen existing subjects.</p><p class="muted">Best for schools that want AI inside chosen subjects.</p><div class="tt-img"><img src="assets/img/delivery/hybrid.webp" width="560" height="521" alt="An AI book stacked on top of English and Science books" loading="lazy" decoding="async"></div></li>
+      <li class="nc"><span class="nc-tag">03 — Embedded</span><span class="nc-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg></span><h3>AI across the curriculum</h3><p>AI is woven across existing subjects and learning experiences.</p><p class="muted">Best for schools ready to use AI school-wide, with Extended Curriculum Hosting.</p><div class="tt-img"><img src="assets/img/delivery/embedded.webp" width="498" height="560" alt="An AI book on top of a stack of English, Science, Math, History and Art books" loading="lazy" decoding="async"></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="s dark center" id="curriculum-cta"><span class="lbl">06 · Final CTA</span>
+  <div class="wrap">
+    <h2>Teach students to think with AI.</h2>
+    <p class="big-statement">A full KG1–12 pathway, ready for your teachers.</p>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="curriculum">Book a Demo</a></div>
+    <p class="cta-note">We'll walk you through the grades you teach and how lessons run.</p>
+  </div>
+</section>
+</div>
+
+<!-- ===================== PAGE 4 — FOR SCHOOL LEADERS ===================== -->
+<div class="page" id="page-leaders" data-title="For School Leaders">
+
+<section class="s" id="leaders-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">For School Leaders &amp; Ministries</span>
+      <h1>Bring AI to your whole school without building the program from scratch.</h1>
+      <p class="lead">Curriculum, tools, assessments, insights, governance, and a rollout team — everything needed to introduce AI across an institution.</p>
+      <div class="ctas"><a href="#/demo" class="btn primary" data-focus="rollout">Book a Demo</a><a href="#/pricing" class="more">Compare plans →</a></div><ul class="hero-meta"><li>Curriculum</li><li>Platform</li><li>Rollout team</li></ul>
+    </div>
+    <div class="hero-media hero-shot"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span><div class="lh lh-leaders" data-lh role="img" aria-label="aiSTART school leader dashboard: totals for students, teachers and AI prompts, weekly AI tools activity, and AI tools usage by grade"><img class="lh-base" src="assets/img/leaders/base.webp" width="2048" height="1071" alt="" decoding="async" fetchpriority="high"><img class="ld-grad" src="assets/img/leaders/gradient.webp" width="2048" height="863" alt="" decoding="async"><div class="lh-p ld-card ld-students" data-w="0,.4" style="--dir:-1"><img src="assets/img/leaders/students.webp" width="522" height="281" alt="" decoding="async"></div><div class="lh-p ld-card ld-teachers" data-w=".08,.48" style="--dir:1"><img src="assets/img/leaders/teachers.webp" width="522" height="281" alt="" decoding="async"></div><div class="lh-p ld-card ld-credits" data-w=".16,.56" style="--dir:1"><img src="assets/img/leaders/credits.webp" width="517" height="281" alt="" decoding="async"></div><div class="lh-p ld-card ld-activity" data-w=".24,.66" style="--dir:-1"><img src="assets/img/leaders/activity.webp" width="991" height="442" alt="" decoding="async"></div><div class="lh-p ld-card ld-grade" data-w=".32,.74" style="--dir:1"><img src="assets/img/leaders/by-grade.webp" width="648" height="442" alt="" decoding="async"></div><div class="lh-p lh-tutor ld-ai" data-w=".42,.82" style="--dir:1"><span class="lh-tag">Expert Corner</span><img src="assets/img/leaders/assistant.webp" width="117" height="121" alt="" decoding="async"></div></div></div>
+  </div>
+</section>
+
+<section class="s alt" id="leaders-one"><span class="lbl">02 · Replace fragmented vendors</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">One platform</span>
+    <h2>One AI infrastructure for the <em class="hlw">education ecosystem.</em></h2>
+      <p class="lead">Most schools buy AI in pieces. aiSTART brings the experience together.</p>
+    </div>
+    <div class="merge"><div class="m-from"><h3 class="h4">You no longer need separate providers for:</h3><div class="m-chips"><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>AI curriculum</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Student AI tools</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Assessment</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Gamification</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Analytics</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Teachers' individual AI subscriptions</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Teacher training</span><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>Implementation support</span></div></div><div class="m-arrow" aria-hidden="true">→</div><div class="m-to"><img class="m-logo" src="assets/aistart-logo-white.png" alt="aiSTART" width="148" height="28" loading="lazy" decoding="async"><p>One AI infrastructure</p><ul><li><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Curriculum &amp; tools</li><li><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Assessment &amp; analytics</li><li><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Training &amp; support</li></ul></div></div>
+  </div>
+</section>
+
+<section class="s" id="leaders-adoption"><span class="lbl">03 · Adoption visibility</span>
+  <div class="wrap split rev">
+    <div>
+      <span class="eyebrow">Adoption</span>
+    <h2>See whether AI is <em class="hlw">actually being adopted.</em></h2>
+      <p>Track active students and teachers, prompt activity, usage over time, engagement by grade, assessment activity, and project participation across your institution.</p>
+      <div class="note"><b>Content guardrail:</b> Present these as adoption and participation indicators, not proof of improved learning outcomes, unless separately validated.</div>
+    </div>
+    <div class="vis-split" role="img" aria-label="Analytics showing AI tools usage by grade for the year, AI tools activity over the year, and assessment and project participation"><div class="fv" data-fv="l1" aria-hidden="true"><div class="fv-stage fv-c-teal">
+      <div class="fv-blob" style="width:240px;height:240px;left:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-donutc">
+        <div class="fv-mk-bar"><i></i><i></i><i></i><span>Analytics</span></div>
+        <div class="fv-body">
+          <div class="fv-t">AI Tools Usage by Grade</div>
+          <div class="fv-st">Jan 1 – Dec 31, 2026</div>
+          <div class="fv-dz">
+            <div class="fv-donut"><span><b>63.7%</b>Grade 5</span></div>
+            <div class="fv-leg">
+              <div><i style="background:var(--teal)"></i>Grade 5<em>63.7%</em></div>
+              <div><i style="background:var(--navy)"></i>Grade 4<em>27.9%</em></div>
+              <div><i style="background:var(--orange)"></i>Grade 6<em>6.6%</em></div>
+              <div><i style="background:var(--terra)"></i>Grade 7<em>1.8%</em></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fv-layer fv-range"><span>Today</span><span>Week</span><span>Month</span><span class="fv-on">Year</span><span>Custom</span></div>
+      <div class="fv-layer fv-card fv-activity fv-tilt-r fv-bob">
+        <div class="fv-t">AI Tools Activity by Year</div>
+        <div class="fv-st">Long-term usage trends</div>
+        <div class="fv-spikes"><i style="height:3%"></i><i style="height:2%"></i><i style="height:4%"></i><i style="height:6%"></i><i style="height:24%"></i><i style="height:90%" class="fv-hi"></i><i style="height:14%"></i><i style="height:8%"></i><i style="height:98%" class="fv-hi"></i><i style="height:10%"></i><i style="height:50%" class="fv-hi"></i><i style="height:9%"></i><i style="height:6%"></i><i style="height:3%"></i><i style="height:2%"></i><i style="height:2%"></i></div>
+        <small><span>Jan</span><span>May</span><span>Sep</span><span>Dec</span></small>
+      </div>
+      <div class="fv-layer fv-partic">
+        <span class="fv-pill"><span class="fv-ico"><svg><use href="#fv-list"/></svg></span>3 assessments completed</span>
+        <span class="fv-pill" style="margin-left:22px"><span class="fv-ico fv-o"><svg><use href="#fv-msg"/></svg></span>1 community project</span>
+      </div>
+    </div></div></div>
+  </div>
+</section>
+
+<section class="s alt" id="leaders-ask"><span class="lbl">04 · Ask AI</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Insights</span>
+    <h2>Ask AI what's happening <em class="hlw">across your school.</em></h2>
+      <p>You don't have time to interpret every chart. Ask a question in plain language and get an answer from the data you're authorized to see.</p>
+      <p>Then drill down to the evidence behind it: assessments, responses, submissions, rubrics, feedback, and — where authorized — relevant AI interactions.</p>
+      <p class="disclaimer">Wellbeing signals always go to a person for review. <a href="#/trust/signal">How signals are handled →</a></p>
+    </div>
+    <div class="vis-split" role="img" aria-label="A school leader asks which grades are most active and gets an answer from the school's data, with links to the evidence, an assessment result, and a wellbeing signal"><div class="fv" data-fv="l2" aria-hidden="true"><div class="fv-stage fv-c-orange">
+      <div class="fv-blob" style="width:240px;height:240px;right:-80px;bottom:-110px;background:#fff"></div>
+      <div class="fv-layer fv-mock fv-lask">
+        <div class="fv-mk-bar"><i></i><i></i><i></i><span>aiSTART Insights</span></div>
+        <div class="fv-ah"><span><svg class="fv-mi"><use href="#fv-spark"/></svg>Ask about your school</span><span class="fv-mk-chip fv-n">Role: School Leader</span></div>
+        <div class="fv-area">
+          <div class="fv-tq">Which grades are most active this year?</div>
+          <div class="fv-lans">
+            <div class="fv-h"><svg class="fv-mi"><use href="#fv-spark"/></svg>Answer</div>
+            <p><b>Grade 5</b> leads with 63.7% of AI tool use, followed by Grade 4.</p>
+            <div class="fv-bars">
+              <div>Grade 5<i><em style="width:63.7%"></em></i><b>63.7%</b></div>
+              <div>Grade 4<i><em style="width:27.9%"></em></i><b>27.9%</b></div>
+            </div>
+            <div class="fv-ev"><small>Evidence</small><span class="fv-mk-chip">Assessments</span><span class="fv-mk-chip">Submissions</span><span class="fv-mk-chip">Rubrics</span></div>
+          </div>
+        </div>
+        <div class="fv-inp"><span class="fv-tf">Ask about your school…</span><span class="fv-send"><svg><use href="#fv-arrow"/></svg></span></div>
+      </div>
+      <div class="fv-layer fv-card fv-evid fv-tilt-r fv-bob">
+        <div class="fv-lbl">Evidence</div>
+        <h6>Module 1 Exam</h6>
+        <div class="fv-meta">Grade 4 · Section A · 5 questions</div>
+        <div class="fv-sc"><img class="fv-avatar fv-img" src="assets/img/features/avatar-aiden.webp" alt="">Aiden Brooks<span class="fv-mk-chip fv-t">20%</span></div>
+      </div>
+      <div class="fv-layer fv-card fv-signal fv-tilt-l">
+        <div class="fv-h"><span class="fv-ico fv-o"><svg><use href="#fv-heart"/></svg></span><div>Wellbeing signal<small>Behavioural Analyst</small></div></div>
+      </div>
+      <div class="fv-layer fv-cursor fv-cur-n" style="left:176px;top:332px"><svg><use href="#fv-cur"/></svg><span>Head of school</span></div>
+    </div></div></div>
+  </div>
+</section>
+
+<section class="s" id="leaders-control"><span class="lbl">05 · Control</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">Control</span>
+      <h2>Keep control <em class="hlw">at the school level.</em></h2>
+    </div>
+    <ol class="nc-grid">
+      <li class="nc"><span class="nc-tag">01 — Roles</span><span class="nc-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.59 18.41A2 2 0 0 0 2 19.83V22a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.17a2 2 0 0 0 1.42-.59l.81-.81a6.5 6.5 0 1 0-4.24-4.24z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg></span><h3>Roles &amp; permissions</h3><p>Decide who sees what — especially student analytics and safeguarding information.</p></li>
+      <li class="nc"><span class="nc-tag">02 — Tools</span><span class="nc-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg></span><h3>Tools &amp; content</h3><p>Turn tools on by grade, and set content controls and usage limits.</p></li>
+      <li class="nc"><span class="nc-tag">03 — Escalation</span><span class="nc-ico" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span><h3>Escalation</h3><p>Route signals to the right staff through your own safeguarding procedures.</p></li>
+    </ol>
+    <p class="nc-foot"><b>AI surfaces information. Your staff remain responsible for decisions.</b> <a href="#/trust" class="more">Trust &amp; Safety →</a></p>
+  </div>
+</section>
+
+<section class="s alt" id="leaders-ministries"><span class="lbl">06 · Ministries &amp; school groups</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Ministries &amp; groups</span>
+    <h2>For ministries, districts, and <em class="hlw">school groups.</em></h2>
+      <p>Deploy one shared curriculum across every institution, with central visibility where authorized.</p>
+      <p><b>Human capital intelligence:</b> see teacher readiness and skill gaps, and target training where it is needed.</p>
+      <p>Adapts to local culture, policy, and curriculum across international and MENA systems.</p>
+      <p class="muted">Proof at scale: a five-year initiative with GADEF International, starting in Ghana.</p>
+      <div class="ctas"><a href="#/trust/compliance" class="more">Data &amp; compliance →</a></div>
+    </div>
+    <figure class="art-free"><img src="assets/img/leaders/ministries.webp" width="1254" height="1254" alt="An education leader at her laptop with system-wide views: a network of connected schools, teacher progress and readiness, growth charts, safeguards in place, and a map of Africa highlighting Ghana" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="s dark center" id="leaders-cta"><span class="lbl">08 · Final CTA</span>
+  <div class="wrap"><h2>Bring AI into your school with a plan — and a team behind it.</h2>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="rollout">Book a Demo</a><a href="#/pricing" class="more">Compare plans →</a></div>
+    <p class="cta-note">For leadership teams: rollout, governance, and adoption in one call.</p></div>
+</section>
+</div>
+
+<!-- ===================== PAGE 5 — FOR TEACHERS ===================== -->
+<div class="page" id="page-teachers" data-title="For Teachers">
+
+<section class="s" id="teachers-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">For Teachers</span>
+      <h1>Teach AI without having to figure everything out yourself.</h1>
+      <p class="lead">Ready-made lessons, guided tools, assessments, live games, and projects — plus training and a team to support you.</p><ul class="hero-meta"><li>Ready-to-teach lessons</li><li>No AI background needed</li><li>Platform training included</li></ul>
+    </div>
+    <div class="hero-media hero-shot"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span><div class="mock mk-video mk-shot"><div class="mk-bar"><i></i><i></i><i></i><span>Lesson in action · Grade 7 · Multimodal AI</span></div>
+  <figure class="hero-video"><video id="teachersHeroVideo" src="assets/video/teachers-hero.mp4" poster="assets/video/teachers-hero-poster.jpg" width="1920" height="1080" controls playsinline preload="metadata" aria-label="20-second aiSTART lesson demo: learning objectives, the Picture Wizard AI tool, a Think-Pair-Share discussion and a recap"></video><button type="button" class="hv-play" aria-label="Play video"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button></figure></div></div>
+  </div>
+</section>
+
+<section class="s" id="teachers-lesson"><span class="lbl">03 · Lesson structure</span>
+  <div class="wrap split rev">
+    <div><span class="eyebrow">Lessons</span>
+    <h2>Every lesson arrives <em class="hlw">ready to teach.</em></h2><p>Open your assigned course and find:</p>
+      <ul class="list cols"><li>Learning objectives</li><li>Lesson content</li><li>Classroom activities</li><li>Discussion questions</li><li>Videos</li><li>Deliverables</li><li>AI lesson summaries</li></ul>
+      <p class="big-statement">The structure is already there.</p></div>
+    <figure class="art-free"><img src="assets/img/teachers/teacher-lessons.webp" width="1402" height="1122" alt="A smiling teacher holding a tablet points to an aiSTART lesson page listing learning objectives, lesson content, classroom activities, discussion questions, videos, deliverables and AI lesson summaries" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="s alt" id="teachers-tools"><span class="lbl">04 · Tutor, tools, hosting</span>
+  <div class="wrap"><span class="eyebrow">In every lesson</span><h2>Tools that keep <em class="hlw">students thinking</em></h2><div class="grid g3">
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg></div><h3>A Private Tutor inside the lesson</h3><p>When students get stuck, the Private Tutor guides their thinking instead of handing over the answer.</p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"/><path d="m14 7 3 3"/><path d="M5 6v4"/><path d="M19 14v4"/><path d="M10 2v2"/><path d="M7 8H3"/><path d="M21 16h-4"/></svg></div><h3>AI tools built around learning tasks</h3><p>Guided tools for research, writing, coding, data, presentations, visual creation, and career exploration — designed to make students think while they build.</p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M12 12v6"/><path d="m15 15-3-3-3 3"/></svg></div><span class="stage">Additional service</span><h3>Extend aiSTART into your own subject</h3><p>Convert your PDF or PowerPoint material into lessons hosted in aiSTART, and use its tools and analytics beyond the AI subject.</p></div>
+  </div></div>
+</section>
+
+<section class="s" id="teachers-assess"><span class="lbl">05 · Assessment builder</span>
+  <div class="wrap split">
+    <div>
+      <h2>Create assessments <em class="hlw">in minutes.</em></h2>
+      <p>Choose the grade, section, lesson, question type, difficulty, and number of questions. Generate a draft with AI, then review, edit, personalize, set the timing, and publish.</p>
+      <p class="big-statement">You keep control.</p>
+    </div>
+    <figure class="art-free"><img src="assets/img/teachers/teacher-assessment.webp?v=2" width="1254" height="1254" alt="A teacher at her laptop uses Create Assessment: Grade 7, Section A, the Multimodal AI lesson, multiple choice, medium difficulty and 10 questions, then Generate with AI produces draft questions to edit" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="s alt" id="teachers-flex"><span class="lbl">06 · Flex + Projects</span>
+  <div class="wrap"><span class="eyebrow">Check understanding</span><h2>Live games and <em class="hlw">real projects</em></h2><div class="grid g2">
+    <div class="card"><div class="mini-panel vis-mini" role="img" aria-label="Flex live game: a simplified question with the correct answer highlighted, a live pill, the podium leaderboard and a correct-answers count"><div class="fv fv-w" data-fv="t1" aria-hidden="true"><div class="fv-stage fv-w fv-c-teal">
+        <div class="fv-blob" style="width:220px;height:220px;right:-70px;bottom:-110px;background:#fff"></div>
+        <div class="fv-layer fv-mock fv-flive">
+          <div class="fv-fh"><span class="fv-ico"><svg><use href="#fv-bolt"/></svg></span><b>Digital Citizenship</b><span class="fv-mk-chip">Q1 of 5</span></div>
+          <div class="fv-fq">Which of these is a core principle of Digital Citizenship?</div>
+          <div class="fv-fa">
+            <div class="fv-far"><i>A</i><div class="fv-skel" style="width:78%"></div><em>8%</em></div>
+            <div class="fv-far"><i>B</i><div class="fv-skel" style="width:64%"></div><em>4%</em></div>
+            <div class="fv-far fv-ok"><i>C</i><span>Responsible and ethical use of technology</span><em>79%</em></div>
+            <div class="fv-far"><i>D</i><div class="fv-skel" style="width:70%"></div><em>8%</em></div>
+          </div>
+        </div>
+        <div class="fv-layer fv-livepill fv-flivepill"><span class="fv-dot"></span>Live · 24 players</div>
+        <div class="fv-layer fv-card fv-board2 fv-tilt-r fv-bob">
+          <div class="fv-h"><svg class="fv-mi"><use href="#fv-trophy"/></svg>Leaderboard</div>
+          <div class="fv-podium">
+            <div class="fv-p3"><img src="assets/img/features/podium-third.webp" alt=""><b>3</b></div>
+            <div class="fv-p1"><img src="assets/img/features/podium-first.webp" alt=""><b>1</b></div>
+            <div class="fv-p2"><img src="assets/img/features/podium-second.webp" alt=""><b>2</b></div>
+          </div>
+        </div>
+        <div class="fv-layer fv-pill fv-fcorrect fv-tilt-l fv-bob fv-b2"><span class="fv-ico"><svg><use href="#fv-tick"/></svg></span>19 of 24 correct</div>
+        <div class="fv-layer fv-cursor fv-cur-n" style="left:312px;top:290px"><svg><use href="#fv-cur"/></svg><span>Ms. Bennett</span></div>
+      </div></div></div><h3 style="margin-top:14px">Make revision live with Flex.</h3><p>Real-time quizzes for revision, warm-ups, formative assessment, classroom competitions, and quick understanding checks.</p></div>
+    <div class="card"><div class="mini-panel vis-mini" role="img" aria-label="A Community project with a due date and rubric, a student submission with a PDF, and teacher feedback"><div class="fv fv-w" data-fv="t2" aria-hidden="true"><div class="fv-stage fv-w fv-c-orange">
+        <div class="fv-blob" style="width:220px;height:220px;left:-70px;bottom:-110px;background:#fff"></div>
+        <div class="fv-layer fv-mock fv-cproj">
+          <div class="fv-mk-bar"><i></i><i></i><i></i><span>Community</span></div>
+          <div class="fv-body">
+            <h4>Grade 10 - Module 1</h4>
+            <div class="fv-skel"></div>
+            <div class="fv-chips"><span class="fv-mk-chip fv-o"><svg class="fv-mi" style="width:11px;height:11px"><use href="#fv-cal"/></svg>Due Sep 24</span><span class="fv-mk-chip"><svg class="fv-mi" style="width:11px;height:11px"><use href="#fv-msg"/></svg>1 submission</span></div>
+          </div>
+          <div class="fv-rub">
+            <div class="fv-lbl">Grading rubric · 65 pts</div>
+            <div class="fv-rr2">Creativity<span class="fv-pts">15 pts</span></div>
+            <div class="fv-rr2">Grammar<span class="fv-pts">25 pts</span></div>
+            <div class="fv-rr2">Prompt quality<span class="fv-pts">25 pts</span></div>
+          </div>
+        </div>
+        <div class="fv-layer fv-card fv-csub fv-tilt-r fv-bob">
+          <div class="fv-who"><img class="fv-avatar fv-img" src="assets/img/features/avatar-aiden.webp" alt=""><div>Aiden Brooks<small>Submitted 10/09/2026</small></div></div>
+          <div class="fv-skel"></div><div class="fv-skel"></div>
+          <span class="fv-att"><svg class="fv-mi"><use href="#fv-file"/></svg>credibility-check.pdf</span>
+        </div>
+        <div class="fv-layer fv-card fv-cfb fv-tilt-l">
+          <div class="fv-who"><img class="fv-avatar fv-img" src="assets/img/features/avatar-ms-bennett.webp" alt=""><div>Ms. Bennett<small>Feedback</small></div><span class="fv-mk-chip">58/65</span></div>
+          <p>Good source check! Add one more source next time.</p>
+        </div>
+        <div class="fv-layer fv-cursor fv-cur-t" style="left:372px;top:336px"><svg><use href="#fv-cur"/></svg><span>Lina · Grade 10</span></div>
+      </div></div></div><h3 style="margin-top:14px">Assess what quizzes cannot.</h3><p>Community Projects give students larger pieces of work with instructions, deadlines, rubrics, submissions, feedback, and peer interaction.</p></div>
+  </div></div>
+</section>
+
+<section class="s" id="teachers-ask"><span class="lbl">07 · Ask AI about your class</span>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Insights</span>
+    <h2>See the student <em class="hlw">behind the score.</em></h2>
+      <p>Ask AI about your class instead of manually interpreting every piece of data. It surfaces patterns in progress, participation, strengths, and support needs from the information you're authorized to see.</p>
+      <p><b>You decide what those patterns mean and what to do next.</b></p>
+      <p class="disclaimer">Wellbeing signals always go to a person for review. <a href="#/trust/signal">How signals are handled →</a></p>
+    </div>
+    <figure class="art-free"><img src="assets/img/teachers/teacher-insights.webp" width="1402" height="1122" alt="A thoughtful teacher at her laptop next to Class Insights panels: progress charts, the question &quot;What patterns do you see in my class?&quot;, students marked on track, needs support or at risk, and a student wellbeing score" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="s alt" id="teachers-flow"><span class="lbl">08 · Teaching flow (cards)</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">Teaching flow</span>
+      <h2>Your <em class="hlw">teaching flow</em></h2>
+      <p class="lead">Four steps, from preparing the lesson to reviewing progress.</p>
+    </div>
+    <div class="uc4 notes flow-notes"><div><span class="note-label">01 · Before class</span><h3>Open the lesson &amp; assign tools</h3><p>The lesson is ready, and you choose which guided tools students use.</p></div><div><span class="note-label">02 · In class</span><h3>Check understanding</h3><p>Assessments, Flex games, and projects show who has it.</p></div><div><span class="note-label">03 · After class</span><h3>Ask AI about patterns</h3><p>See progress, participation, and support needs.</p></div><div><span class="note-label">04 · After class</span><h3>Support &amp; review progress</h3><p>You decide what happens next.</p></div></div>
+  </div>
+</section>
+
+<section class="s" id="teachers-support"><span class="lbl">09 · Support</span>
+  <div class="wrap"><span class="eyebrow">Support</span><h2>Training and <em class="hlw">a team behind you</em></h2><div class="grid g2">
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>You won't learn the platform alone.</h3><p>During early implementation, our team can teach alongside you, then keep supporting you after rollout.</p><a class="more" href="#/services">Services →</a></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg></div><h3>Build your own AI skills too.</h3><p>Start with a hands-on platform orientation. Schools can also add Educator AI Training: CPD-certified modules in prompting, responsible AI, verification, assessment, and your daily workflow — and earn a CPD certificate.</p><a class="more" href="#/services/training">Educator AI Training →</a></div>
+  </div></div>
+</section>
+
+<section class="s dark center" id="teachers-cta"><span class="lbl">10 · Final CTA</span>
+  <div class="wrap"><h2>You teach the students.</h2><p class="big-statement">We help make teaching AI easier.</p>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="curriculum">Book a Demo</a><a class="more" href="mailto:?subject=Could%20our%20school%20look%20at%20aiSTART%3F&amp;body=I%20came%20across%20aiSTART%2C%20a%20KG1%E2%80%9312%20AI%20curriculum%20and%20platform%20for%20schools.%20Could%20we%20book%20a%20demo%3F">Recommend aiSTART to your school →</a></div>
+    <p class="cta-note">See a lesson and the classroom tools you'd use.</p></div>
+</section>
+</div>
+
+<!-- ===================== PAGE 6 — FOR STUDENTS ===================== -->
+<div class="page" id="page-students" data-title="For Students">
+
+<section class="s" id="students-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div><span class="eyebrow">For Students</span><h1>Learn AI by making things with it.</h1>
+      <p class="lead">aiSTART gives you a guided place to understand AI, question it, create with it, and learn where it can go wrong.</p>
+      <p class="big-statement">You stay the thinker.<br>AI helps you along the way.</p></div>
+    <div class="hero-media hero-shot"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span><div class="lid-wrap" data-lid><div class="lid" role="group" aria-label="Laptop cover you can decorate with aiSTART stickers"><img class="lid-logo" src="assets/aistart-logo.png" width="476" height="90" alt="" aria-hidden="true"><button type="button" class="stk" style="--x:8%;--y:10%;--r:-8deg" aria-label="Real or AI? sticker. Drag, or use the arrow keys, to move it."><img src="assets/img/stickers/real-or-ai.webp" width="413" height="420" alt="" draggable="false" decoding="async"></button><button type="button" class="stk" style="--x:62%;--y:8%;--r:6deg" aria-label="Kind Online sticker. Drag, or use the arrow keys, to move it."><img src="assets/img/stickers/kind-online.webp" width="420" height="377" alt="" draggable="false" decoding="async"></button><button type="button" class="stk" style="--x:70%;--y:56%;--r:-5deg" aria-label="Privacy Pro sticker. Drag, or use the arrow keys, to move it."><img src="assets/img/stickers/privacy-pro.webp" width="420" height="388" alt="" draggable="false" decoding="async"></button><button type="button" class="stk" style="--x:6%;--y:58%;--r:7deg" aria-label="Fair Play sticker. Drag, or use the arrow keys, to move it."><img src="assets/img/stickers/fair-play.webp" width="420" height="398" alt="" draggable="false" decoding="async"></button><button type="button" class="stk" style="--x:36%;--y:62%;--r:-3deg" aria-label="Ask a thoughtful question sticker. Drag, or use the arrow keys, to move it."><img src="assets/img/stickers/ask-question.webp" width="420" height="394" alt="" draggable="false" decoding="async"></button></div><div class="lid-hinge" aria-hidden="true"></div><p class="lid-hint"><span>Drag the stickers to decorate your laptop.</span><button type="button" class="lid-reset">Reset</button></p></div></div>
+  </div>
+</section>
+
+<section class="s alt" id="students-features"><span class="lbl">02 · Student experience</span>
+  <div class="wrap"><span class="eyebrow">Your aiSTART</span><h2>Everything you need to learn AI</h2><div class="grid g3">
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg></div><h3>Learn step by step</h3><p>Lessons, activities, challenges, tools, and projects — all designed for your level.</p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></div><h3>Stuck? Ask your Private Tutor</h3><p>It helps you figure out what to do next instead of doing the work for you.</p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.13-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.55-2.5 5.55-5.55C21.97 6.01 17.46 2 12 2z"/></svg></div><h3>Create with AI</h3><p>Write a story, design a character or product, code, build a presentation, or test an idea. <b>The AI helps. You decide.</b></p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Play with your class</h3><p>Join Flex games, answer live, challenge classmates, and see how you're doing.</p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div><h3>Build something real</h3><p>Projects show you what to make, how it's marked, when it's due, and the feedback you get.</p></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div><h3>See your progress</h3><p>Your dashboard shows what you've done, what's next, and what needs attention.</p></div>
+  </div></div>
+</section>
+
+<section class="s" id="students-gallery"><span class="lbl">03 · Student work</span>
+  <div class="wrap"><h2>What students have made</h2>
+    <p class="muted wc-lead">From storybooks in Grade 4 to startup pitches in Grade 11 — the kinds of projects students build with aiSTART.</p>
+    <div class="wcards">
+      <figure class="wc wc-1"><img width="863" height="1343" src="assets/img/students/g4.webp" alt="Illustration: a young student reading a glowing storybook that leads to a castle" loading="lazy" decoding="async">
+        <figcaption class="wc-cap"><span class="wc-grade">Grade 4 · Creative AI</span><strong>My AI storybook adventure</strong></figcaption></figure>
+      <figure class="wc wc-2"><img width="848" height="1343" src="assets/img/students/g7.webp" alt="Illustration: a student sketching an app design on a tablet" loading="lazy" decoding="async">
+        <figcaption class="wc-cap"><span class="wc-grade">Grade 7 · AI products</span><strong>Designing an app with AI</strong></figcaption></figure>
+      <figure class="wc wc-3"><img width="844" height="1343" src="assets/img/students/g9.webp" alt="Illustration: a student analysing charts and a world map on a laptop" loading="lazy" decoding="async">
+        <figcaption class="wc-cap"><span class="wc-grade">Grade 9 · Data &amp; AI</span><strong>Telling stories with data</strong></figcaption></figure>
+      <figure class="wc wc-4"><img width="862" height="1343" src="assets/img/students/g11.webp" alt="Illustration: a team of students brainstorming a startup idea at a whiteboard" loading="lazy" decoding="async">
+        <figcaption class="wc-cap"><span class="wc-grade">Grade 11 · AI startups</span><strong>Pitching our AI startup</strong></figcaption></figure>
+    </div>
+    <div class="note"><b>Needs input:</b> Add real student projects with grade and module, with school and parent consent. No student surnames or photos without permission.</div></div>
+</section>
+
+<section class="s alt" id="students-three"><span class="lbl">04 · Three things to remember</span>
+  <div class="wrap center"><h2>Three things to remember</h2>
+    <div class="grid g3" style="margin-top:24px">
+      <div class="card three-t"><span class="tt-n"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><b>1</b></span><h3>Protect your information.</h3></div>
+      <div class="card three-t"><span class="tt-n"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><b>2</b></span><h3>Check what AI tells you.</h3></div>
+      <div class="card three-t"><span class="tt-n"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg><b>3</b></span><h3>Stay the human in charge.</h3></div>
+    </div></div>
+</section>
+
+<section class="s" id="students-oath"><span class="lbl">05 · Student Oath (interactive)</span>
+  <div class="wrap">
+    <div class="center" style="margin-bottom:24px"><h2>The Student Oath</h2><p class="muted">My Commitment to Responsible AI Use</p></div>
+    <div class="oath-x">
+      <div data-oath="interactive"></div>
+      <div class="oath-boy"><div class="boy-fig"><div class="boy-say"><span id="boySay" aria-live="polite">Hi! Let's make our promise together.</span><button type="button" class="say-play" aria-label="Hear what he says" aria-pressed="false"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4.7a.7.7 0 0 0-1.2-.5L6.4 7.6A1.4 1.4 0 0 1 5.4 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.4a1.4 1.4 0 0 1 1 .4l3.4 3.4a.7.7 0 0 0 1.2-.5z"/><path class="w1" d="M16 9a5 5 0 0 1 0 6"/><path class="w2" d="M19.4 18.4a9 9 0 0 0 0-12.8"/></svg><span class="say-l">Listen</span></button></div><img src="assets/img/oath-boy.webp" alt="" width="680" height="735" loading="lazy" decoding="async"></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="s dark center" id="students-cta"><span class="lbl">06 · Final CTA</span>
+  <div class="wrap"><h2>Already using aiSTART?</h2><p class="lead">Log in to pick up where you left off. Not yet? Ask your teacher about aiSTART.</p>
+    <div class="ctas"><a class="btn primary" href="https://learn.aistart.school/" target="_blank" rel="noopener">Log In<span class="sr"> (opens in a new tab)</span></a></div></div>
+</section>
+</div>
+
+<!-- ===================== PAGE 7 — FOR PARENTS ===================== -->
+<div class="page" id="page-parents" data-title="For Parents">
+
+<section class="s" id="parents-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div><span class="eyebrow">For Parents</span><h1>Your child will use AI.</h1><p class="big-statement">We help them learn how to use it well.</p>
+      <p class="lead">aiSTART gives students a guided learning environment to understand AI, create with it, and build good habits — checking facts and protecting their privacy — under school supervision.</p><ul class="hero-meta"><li>Designed for each grade</li><li>Under school supervision</li></ul></div>
+    <div class="hero-media hero-shot"><span class="hm-shp hm1" aria-hidden="true"></span><span class="hm-shp hm2" aria-hidden="true"></span><span class="hm-shp hm3" aria-hidden="true"></span><figure class="shot shot-hero"><img src="assets/img/hero/parents-hero.webp" width="1448" height="1086" alt="A parent and child smiling together at a laptop, surrounded by floating AI learning cards for images, voice, a tutor and checklists" decoding="async" fetchpriority="high"></figure></div>
+  </div>
+</section>
+
+<section class="s alt" id="parents-learn"><span class="lbl">02 · Learns / Does</span>
+  <div class="wrap"><span class="eyebrow">At school</span><h2>What AI learning looks like <em class="hlw">for your child</em></h2><div class="grid g2">
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div><h3>What your child learns</h3>
+      <ul class="list"><li>What AI can and cannot do</li><li>How to question and verify AI answers</li><li>How to protect personal information</li><li>How to recognize bias</li><li>How to use AI creatively and honestly</li><li>How to keep their own judgment at the center</li></ul></div>
+    <div class="card"><div class="ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.13-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.55-2.5 5.55-5.55C21.97 6.01 17.46 2 12 2z"/></svg></div><h3>What your child actually does</h3><p>Structured lessons and projects, using only the tools their school has switched on. They may create stories, design, investigate evidence, analyze data, code, play class games, and build projects.</p>
+      <p>The Private Tutor helps when they're stuck while encouraging them to keep thinking for themselves.</p></div>
+  </div></div>
+</section>
+
+<section class="s" id="parents-see"><span class="lbl">03 · Staying informed</span>
+  <div class="wrap split">
+    <div><span class="eyebrow">Staying informed</span>
+    <h2>How you'll <em class="hlw">stay informed</em></h2>
+      <p>Parents don't have their own aiSTART login. <b>Your child's school is your point of contact</b> — for questions about progress, classroom use, or your child's information.</p>
+      <p>Teachers see your child's progress and learning activity, and authorized school staff can notice when a student may need extra support.</p>
+      <p class="disclaimer">Support signals are reviewed by people. They are not medical or psychological diagnoses, and AI does not make decisions about your child's wellbeing.</p></div>
+    <div class="card"><h3 class="h4">Ask your school about:</h3>
+      <ul class="list"><li>Accessing your child's information</li><li>Correcting school records</li><li>Deleting an account</li><li>Withdrawing consent</li><li>How learning analytics are used</li></ul></div>
+  </div>
+</section>
+
+<section class="s alt" id="parents-faq"><span class="lbl">04 · Parent FAQ</span>
+  <div class="wrap">
+    <span class="eyebrow">FAQ</span>
+    <h2>Questions <em class="hlw">parents ask</em></h2>
+    <div style="margin-top:20px">
+      <div class="acc open"><button type="button">Is it age-appropriate?</button><div class="acc-body"><p>Yes. Lessons and tools are designed for each grade, from KG1 to Grade 12, and schools control which tools students can access.</p></div></div>
+      <div class="acc"><button type="button">Is my child's data used to train AI?</button><div class="acc-body"><p>No. aiSTART does not use identifiable student content to train general-purpose AI models, does not allow its AI providers to do so, and never sells student information or uses it for advertising. <a href="#/trust/data">Data &amp; governance →</a></p></div></div>
+      <div class="acc"><button type="button">Who can see my child's activity?</button><div class="acc-body"><p>Only authorized school staff — such as teachers, administrators, counsellors, and safeguarding staff — based on their role. Your school decides who has access. aiSTART never sells student information or uses it for advertising.</p></div></div>
+      <div class="acc"><button type="button">How much screen time is involved?</button><div class="acc-body"><p>Each aiSTART session lasts 45–60 minutes. Your child's school decides how often classes run.</p></div></div>
+      <div class="acc"><button type="button">Will aiSTART use my child's camera or microphone?</button><div class="acc-body"><p>Only if a specific module needs it. Camera and microphone access isn't requested otherwise.</p></div></div>
+      <div class="acc"><button type="button">What stops inappropriate content?</button><div class="acc-body"><p>Built-in guardrails block explicit content, hate speech, harassment, impersonation of real people, and political content. <a href="#/trust/controlled">How it works →</a></p></div></div>
+      <div class="acc"><button type="button">Will my child use AI to cheat?</button><div class="acc-body"><p>Academic integrity is taught throughout the curriculum, the Private Tutor guides rather than answers, and students commit to the <a href="#/students/oath">Student Oath</a>. Suspected misconduct is flagged for teachers to review with the student.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="s dark center" id="parents-cta"><span class="lbl">05 · Final CTA</span>
+  <div class="wrap"><h2>Help your child get ready for a world with AI.</h2><p class="big-statement">Safely, with their school, one lesson at a time.</p>
+    <div class="ctas"><a class="btn primary" href="mailto:?subject=AI%20learning%20at%20our%20school&amp;body=I%20came%20across%20aiSTART%2C%20a%20KG1%E2%80%9312%20AI%20curriculum%20designed%20around%20responsible%20use.%20Could%20the%20school%20take%20a%20look%3F">Share aiSTART With Your School</a><a href="#/trust" class="more">See Trust &amp; Safety →</a></div></div>
+</section>
+</div>
+
+<!-- ===================== PAGE 8 — TRUST & SAFETY ===================== -->
+<div class="page" id="page-trust" data-title="Trust & Safety">
+
+<section class="s legal-page" id="trust-doc"><span class="lbl">01 · Trust &amp; Safety (document)</span>
+  <div class="wrap legal-wrap">
+    <h1>Trust &amp; Safety</h1>
+    <p class="lg-meta">Role-based access · Configurable controls · Human review of wellbeing signals</p>
+    <p class="lg-intro">aiSTART is a learning environment built for schools. Your school chooses which AI tools students use, and every grade teaches students to verify answers and protect their data.</p>
+    <nav class="lg-toc" aria-label="On this page"><b>On this page</b>
+      <ol><li><a href="#/trust/data">Data &amp; governance</a></li><li><a href="#/trust/compliance">Compliance</a></li><li><a href="#/trust/controlled">A controlled environment</a></li><li><a href="#/trust/signal">How a signal is handled</a></li><li><a href="#/trust/taught">Taught safety</a></li><li><a href="#/trust/policies">Policies</a></li><li><a href="#/trust/downloads">Downloads</a></li></ol>
+    </nav>
+
+    <section class="lg-sec" id="trust-data"><h2>1. Data &amp; governance</h2>
+      <p>Your school is the data controller; Slangit only processes information to deliver the service, on your instructions.</p>
+      <h3>Your school decides</h3><p>Who uses aiSTART, what's shared, which features are on, who sees student information, and how long it's kept.</p><h3>We never</h3><p>Train general-purpose AI models on identifiable student content, sell student information, or use it for advertising.</p><h3>People review</h3><p>Analytics don't inform significant decisions about a student without human review.</p>
+      <h3>Security measures include</h3><ul><li>Role-based access controls</li><li>Authentication &amp; password controls</li><li>Encryption in transit and, where appropriate, at rest</li><li>Security logging &amp; monitoring</li><li>Secure development practices</li><li>Backup &amp; disaster recovery</li><li>Supplier security assessments</li><li>Incident-response procedures</li></ul>
+      <p class="lg-ref">Source: <a href="docs/aiSTART-Privacy-Policy-Rev02.pdf" target="_blank" rel="noopener">aiSTART Privacy Policy</a> (PP-030326-Rev02, effective 3 March 2026).</p>
+    </section>
+
+    <section class="lg-sec" id="trust-compliance"><h2>2. Compliance</h2>
+      <h3>GDPR &amp; local laws</h3><p>aiSTART is GDPR-compliant and designed to comply with local laws and regulations in each country where it's deployed, aligned with the cultural and regulatory standards of the Arab world.</p><h3>Data hosting</h3><p>Hosting depends on your deployment. Ask us about available regions, data residency, international transfer safeguards, and on-premises or dedicated deployment options.</p><h3>Retention &amp; deletion</h3><p>Retention periods are set in your agreement. When it ends, we can return or export your data and delete it; backups are overwritten on our regular backup cycle.</p><h3>Age &amp; consent</h3><p>Student accounts are only created through a school or education authority. Where parental consent is legally required, responsibility for obtaining it is set out in the agreement.</p><h3>AI model providers</h3><p>aiSTART uses multiple large language models, each tested for cultural and demographic bias before it's made available. Prompts go to contracted providers only to generate the response. A subprocessor list is available on request.</p><h3>Incident response</h3><p>If a data breach occurs, we investigate, contain it, preserve evidence, notify your institution where required, and support you in meeting your legal obligations.</p>
+    </section>
+
+    <section class="lg-sec" id="trust-controlled"><h2>3. A controlled environment</h2>
+      <p>Students only use the AI tools your school has switched on inside aiSTART.</p>
+      <h3>Built-in guardrails</h3><p>Content moderation and prompt safety controls block explicit material, hate speech, harassment, impersonation of real people, false information about people, and political content.</p><p class="muted">Suspected academic misconduct is flagged to teachers for their judgment.</p><h3>Configurable controls</h3><p>Schools set safeguards and access to fit their policies, culture, age groups, and implementation model.</p><h3>Role-based access</h3><p>Students, teachers, administrators, counsellors, and safeguarding staff each see only what their role allows — especially student analytics and safeguarding information.</p>
+    </section>
+
+    <section class="lg-sec" id="trust-signal"><h2>4. How a signal is handled</h2>
+      <p>Where enabled, aiSTART can flag interactions that may need a responsible adult's attention — such as references to self-harm, violence, abuse, bullying, or dangerous activities — and notify authorized safeguarding staff.</p><p>An alert is a prompt for human review — not proof that something happened, a disciplinary finding, or a diagnosis.</p><p><b>aiSTART does not</b> diagnose mental health conditions, replace teachers, counsellors, or medical professionals, or make significant decisions about a learner without meaningful human involvement.</p>
+      <ol><li>Signal surfaced by platform</li><li>Routed to authorized staff (role-based)</li><li>Human review &amp; judgment</li><li>School's own escalation procedure</li></ol>
+      <p>aiSTART is not an emergency service and shouldn't be the only way a student is protected. Schools remain responsible for their own safeguarding policies, trained personnel, escalation procedures, and emergency processes.</p>
+    </section>
+
+    <section class="lg-sec" id="trust-taught"><h2>5. Taught safety</h2>
+      <p>Students repeatedly practise protecting personal information, verifying AI content, spotting misinformation and manipulated media, questioning bias, and keeping academic integrity.</p>
+      <p>Topics covered: Privacy, Verification, Misinformation, Bias, AI Limitations, Manipulated Media, Academic Integrity, and Human Responsibility. Every student also commits to the <a href="#/students/oath">Student Oath</a>.</p>
+    </section>
+
+    <section class="lg-sec" id="trust-policies"><h2>6. Policies</h2>
+      <p class="lg-ref">Slangit Technologies FZCO</p>
+      <div class="lg-sec" id="trust-privacy"><h3>Privacy Policy</h3>
+      <p class="lg-ref">PP-030326-Rev02 · Effective 3 March 2026</p>
+      <p>How personal information is collected, used, stored, shared, and protected on aiSTART. The key points are summarized in <a href="#/trust/data">section 1</a>.</p></div>
+
+    <div class="lg-sec" id="trust-usage"><h3>AI Usage Policy</h3>
+      <p class="lg-ref">BP-030326-Rev02 · Effective 3 March 2026</p>
+      <p>The framework for safe, ethical, and responsible use of aiSTART in K–12 schools: permitted and prohibited uses, academic integrity, and safety controls. Schools can adapt it into their own policy, as local laws require.</p></div>
+
+    <div class="lg-sec" id="trust-cookies"><h3>Cookies</h3>
+      <p>Student-facing areas don't use cookies for targeted advertising. Cookie use is covered in section 15 of the Privacy Policy.</p></div>
+
+    <div class="lg-sec" id="trust-terms"><h3>Service terms</h3>
+      <p>Service terms are set out in each school's agreement with Slangit Technologies.</p></div>
+
+    <div class="lg-sec" id="trust-accessibility"><h3>Accessibility</h3>
+      <p>We want aiSTART and this website to be usable by everyone, including people with disabilities. We are working towards the Web Content Accessibility Guidelines (WCAG) 2.2, Level AA.</p>
+      <ul><li>Web-based lessons that work with browser zoom</li><li>Compatible with translation tools</li><li>Designed for assistive technologies such as screen readers</li></ul>
+      <p>If you find something hard to use, email <a href="mailto:support@slangit.ai">support@slangit.ai</a> and we'll aim to help.</p></div>
+
+    </section>
+    <section class="lg-sec" id="trust-downloads"><h2>7. Downloads</h2><div>
+      <ul class="lg-files"><li><button type="button" class="lg-linkbtn" data-toast="Wireframe: downloads the Security &amp; Privacy Pack">Security &amp; Privacy Pack</button><span>Request · security and privacy documentation for schools</span></li>
+        <li><a href="docs/aiSTART-Privacy-Policy-Rev02.pdf" download>Privacy Policy</a><span>PDF · 210 KB · PP-030326-Rev02</span></li>
+        <li><a href="docs/aiSTART-AI-Usage-Policy-Rev02.pdf" download>AI Usage Policy for Educational Institutions</a><span>PDF · 315 KB · BP-030326-Rev02</span></li>
+        <li><a href="docs/aiSTART-Student-Oath.pdf" download>The Student Oath</a><span>PDF · 55 KB · for students and classrooms</span></li>
+      </ul>
+      <p class="lg-contact">Questions or privacy requests: <a href="mailto:support@slangit.ai">support@slangit.ai</a></p></div>
+    </section>
+    <div class="note"><b>Check with legal:</b> GDPR compliance was stated in the old AI Usage Policy (§7, still live on slangit.ai, last modified 3 March 2025) but is not in Rev02 of either policy. Add it back to Rev02 so the site and the current policies match. Add other laws (e.g. UAE/Saudi PDPL) or certifications only if confirmed.</div>
+    <div class="note"><b>Accessibility Statement is a draft:</b> keep "working towards" WCAG until an accessibility audit confirms conformance, and fill in the review date. Privacy requests: support@slangit.ai (Slangit Technologies FZCO).</div>
+  </div>
+</section>
+</div>
+
+<div class="page" id="page-services" data-title="Services">
+
+<section class="s" id="services-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap"><span class="eyebrow">Services</span><h1>Everything your school needs to start.</h1>
+    <p class="lead">Setup, platform training, and a curriculum overview come with aiSTART. When you want more, add AI training for teachers, curriculum hosting, or curriculum conversion.</p></div>
+</section>
+
+<section class="s" id="services-included"><span class="lbl">02 · Included (get to know)</span>
+  <div class="wrap">
+    <div class="gtk-head"><span class="eyebrow">Included</span><h2>Get to know <em class="hlw">what's included</em></h2><p class="lead">Everything your school needs to go from setup to confident, everyday use.</p></div>
+    <div class="gtk">
+      <div class="gtk-row"><article class="gtk-card" id="services-onboarding"><div class="gtk-art t1 photo"><img src="assets/img/services/setup-onboarding.webp" alt="A school admin adding a new admin account in aiSTART, with the Gmail verification code open beside it" width="1536" height="1024" loading="lazy" decoding="async"></div><div class="gtk-text"><span class="inc-pill">Included</span><h3>Setup &amp; onboarding</h3><p>We create student and teacher accounts, integrated with your admin's Gmail, and set up classes, roles, and permissions.</p></div></article><article class="gtk-card" id="services-orientation"><div class="gtk-art t2 photo"><img src="assets/img/services/teacher-training.webp" alt="An aiSTART trainer presenting the teacher dashboard on a wall screen to teachers following along on laptops" width="1204" height="1086" loading="lazy" decoding="async"></div><div class="gtk-text"><span class="inc-pill">Included</span><h3>Teacher platform training</h3><p>A one-day, hands-on orientation for teachers in Grades 4–12, across IB, American, and GCSE curricula.</p></div></article></div>
+      <div class="gtk-row"><article class="gtk-card" id="services-admin"><div class="gtk-art t3 photo"><img src="assets/img/services/leader-orientation.webp" alt="Two school leaders reviewing aiSTART AI tool usage analytics by year and by grade on a laptop" width="1672" height="941" loading="lazy" decoding="async"></div><div class="gtk-text"><span class="inc-pill">Included</span><h3>Leader orientation</h3><p>School leaders get a separate 60-minute admin orientation.</p></div></article><article class="gtk-card" id="services-curriculum"><div class="gtk-art t4 photo"><img src="assets/img/services/curriculum-overview.webp" alt="A smiling student holding a tablet showing the aiSTART Grade 4 course library" width="1447" height="1087" loading="lazy" decoding="async"></div><div class="gtk-text"><span class="inc-pill">Included</span><h3>Curriculum overview</h3><p>How the KG1–Grade 12 pathway, grade journeys, and lessons fit your timetable.</p></div></article></div>
+      <div class="gtk-row"><article class="gtk-card" id="services-shadow"><div class="gtk-art t1 photo"><img src="assets/img/services/shadow-teaching.webp" alt="An aiSTART trainer leading a classroom lesson while the class teacher observes from the front of the room" width="1671" height="885" loading="lazy" decoding="async"></div><div class="gtk-text"><span class="inc-pill">Included</span><h3>Shadow teaching, when needed</h3><p>Our team works alongside your teachers in early lessons, showing how activities and tools work in practice.</p></div></article><article class="gtk-card" id="services-support"><div class="gtk-art t2 photo"><img src="assets/img/services/ongoing-support.webp" alt="An aiSTART technical support specialist wearing a headset with a microphone, helping a school over a call" width="1536" height="1024" loading="lazy" decoding="async"></div><div class="gtk-text"><span class="inc-pill">Included</span><h3>Ongoing support</h3><p>Teachers and administrators can reach us for guidance and troubleshooting as usage grows.</p></div></article></div>
+    </div>
+    <div class="inc-detail"><div class="card orient">
+        <div class="mod-top"><span class="stage">Platform orientation</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>1 day · 5 hrs</span></div>
+        <h3>aiSTART Teachers Orientation</h3>
+        <p>A hands-on day for all teachers in Grades 4–12, across IB, American, and GCSE curricula.</p>
+        <div class="chips"><span class="chip">AI basics</span><span class="chip">Hands-on platform tour</span><span class="chip">AI Private Tutor &amp; tools</span><span class="chip">Assessments</span><span class="chip">Curriculum &amp; grade journeys</span><span class="chip">Classroom roleplay</span><span class="chip">Tools &amp; support</span></div>
+        <p class="muted" style="margin:10px 0 0">School leaders get a separate 60-minute admin orientation.</p>
+      </div></div>
+  </div>
+
+</section>
+
+<section class="s" id="services-extra"><span class="lbl">03 · Additional services (stacked files)</span>
+  <div class="wrap">
+    <div class="gtk-head"><span class="eyebrow">Additional services</span><h2>What else is <em class="hlw">available?</em></h2><p class="lead">Available separately, for schools that want to go further. <a class="inline-link" href="#/demo" data-focus="training">Ask about additional services</a></p></div>
+    <div class="files xfiles" style="--n:3">
+      <article class="file xf1" id="services-extra-training" style="--k:0">
+        <span class="file-tab" data-n="1" aria-hidden="true">Educator AI Training</span>
+        <div class="file-body">
+          <div class="file-text"><span class="ex-pill">Available separately</span><h3>Educator AI Training</h3><p>Practical, instructor-led AI modules for teachers' own work, online or in person. Teachers who complete a module earn a CPD certificate.</p><a class="more" href="#/services/training">See all modules ↓</a></div>
+          <ul class="xf-list"><li>7 modules, 2–4 hours each</li><li>Instructor-led, online or in person</li><li>A CPD certificate for every module completed</li></ul>
+        </div>
+      </article>
+      <article class="file xf2" id="services-hosting" style="--k:1">
+        <span class="file-tab" data-n="2" aria-hidden="true">Curriculum hosting</span>
+        <div class="file-body">
+          <div class="file-text"><span class="ex-pill">Available separately</span><h3>Curriculum hosting</h3><p>Host your own subjects in aiSTART, so your school can use its tools across more of the curriculum.</p></div>
+          <ul class="xf-list"><li>Your own subjects, hosted in aiSTART</li><li>aiSTART tools and learning support in more classes</li><li>Analytics and assessments across the curriculum</li></ul>
+        </div>
+      </article>
+      <article class="file xf3" id="services-conversion" style="--k:2">
+        <span class="file-tab" data-n="3" aria-hidden="true">Curriculum conversion</span>
+        <div class="file-body">
+          <div class="file-text"><span class="ex-pill">Available separately</span><h3>Curriculum conversion</h3><p>We turn static lessons into interactive content your students can work through in aiSTART.</p></div>
+          <ul class="xf-list"><li>From PDF or PowerPoint</li><li>To interactive HTML lessons</li><li>Adapted to your school's culture and requirements</li></ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="services-training"><span class="lbl">04 · Educator AI Training (additional service)</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">Educator AI Training · Available separately</span>
+      <h2>AI skills for teachers, <em class="hlw">with CPD certificates.</em></h2>
+      <p class="lead">Instructor-led modules, online or in person, for teachers' own work. Each completed module earns a CPD certificate that records the teacher's CPD hours.</p>
+    </div>
+    <div class="grid g3 mods" style="margin-top:18px">
+        <div class="card mod"><div class="mod-top"><span class="stage">CPD module</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>4 hrs</span></div><h3>AI Prompting for Educators</h3><p>Write effective prompts, differentiate activities, build reusable AI assistants, and leave with a personal AI teaching toolkit.</p></div>
+        <div class="card mod"><div class="mod-top"><span class="stage">CPD module</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>4 hrs</span></div><h3>Responsible AI &amp; school governance</h3><p>Recognize AI risks, protect student data, detect bias, and draft a school AI policy.</p></div>
+        <div class="card mod"><div class="mod-top"><span class="stage">CPD module</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>2 hrs</span></div><h3>AI Tools Landscape for Educators</h3><p>Compare leading AI tools and choose the right one for each teaching task.</p></div>
+        <div class="card mod"><div class="mod-top"><span class="stage">CPD module</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>2 hrs</span></div><h3>AI Verification &amp; Fact-Checking</h3><p>Catch hallucinations and bias, and verify AI answers and their sources.</p></div>
+        <div class="card mod"><div class="mod-top"><span class="stage">CPD module</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>3 hrs</span></div><h3>Assessment in the Age of AI</h3><p>Redesign a real assessment so it still measures learning when students use AI.</p></div>
+        <div class="card mod"><div class="mod-top"><span class="stage">CPD module</span><span class="hrs"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>4 hrs</span></div><h3>AI across the teacher workflow</h3><p>Bring AI into planning, assessing, and communicating, and build ready-to-run tools for your week.</p></div>
+        <div class="card mod mod-wide"><div class="mod-top"><span class="stage">Train-the-trainer</span><span class="hrs ghost"></span></div><h3>ToT – AI Literacy 101</h3><p>Prepare school leads to teach AI literacy to colleagues: how AI turns data into patterns, and why confident isn't correct.</p></div>
+        </div>
+      </div>
+    
+</section>
+
+<section class="s" id="services-faq"><span class="lbl">03b · FAQ</span>
+  <div class="wrap">
+    <div class="sh">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions about <em class="hlw">the rollout</em></h2>
+    </div>
+    <div class="faq-list">
+      <div class="acc open"><button type="button">What's included, and what costs extra?</button><div class="acc-body"><p>Setup, platform training, a leader orientation, a curriculum overview, shadow teaching when needed, and ongoing support come with aiSTART. Educator AI Training, curriculum hosting, and curriculum conversion are available separately.</p></div></div>
+      <div class="acc"><button type="button">Who sets up our accounts?</button><div class="acc-body"><p>We do. We create student and teacher accounts, integrated with your admin's Gmail, and set up classes, roles, and permissions.</p></div></div>
+      <div class="acc"><button type="button">Do our teachers need an AI background?</button><div class="acc-body"><p>No. Lessons are designed for school teachers to deliver, every teacher gets a platform training day, and our team can teach alongside them when needed.</p></div></div>
+      <div class="acc"><button type="button">How long is the platform orientation?</button><div class="acc-body"><p>It's a one-day, hands-on session, included with aiSTART. School leaders get a separate 60-minute admin orientation.</p></div></div>
+      <div class="acc"><button type="button">What devices do we need?</button><div class="acc-body"><p>aiSTART is web-based and works on any device with a browser.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="s dark center" id="services-cta"><span class="lbl">04 · Final CTA</span>
+  <div class="wrap"><p class="eyebrow">The goal</p><h2>Your school running aiSTART confidently on its own.</h2>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="rollout">Book a Demo</a></div>
+    <p class="cta-note">We'll plan setup, training, and any additional services with you.</p></div>
+</section>
+</div>
+
+<!-- ===================== PAGE 10 — PRICING ===================== -->
+<div class="page" id="page-pricing" data-title="Plans">
+
+<section class="s" id="pricing-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap split">
+    <div><span class="eyebrow">Plans</span><h1>Three plans. One AI learning journey.</h1>
+      <p class="lead">Every plan covers the full KG1–12 pathway for a full school year. Choose how far you want to take AI — from a controlled introduction to a complete AI learning infrastructure.</p>
+      <div class="ctas"><a href="#/demo" class="btn primary" data-focus="plans">Book a Demo</a><a href="#/pricing/compare" class="more">Compare plans →</a></div><ul class="hero-meta"><li>3 plans</li><li>Full KG1–12 pathway</li><li>Full school year</li></ul></div>
+    <div class="plan-path" role="img" aria-label="Three plans that build on each other: AI Explorer, then AI Adopter, then AI Champion"><div class="pp c1" aria-hidden="true"><span class="pp-n">1</span><span class="stage">AI Explorer</span><strong>Controlled AI introduction</strong><small>For schools starting AI adoption</small><em>Full KG1–12 pathway</em></div><span class="pp-arr" aria-hidden="true">→</span><div class="pp c2" aria-hidden="true"><span class="pp-n">2</span><span class="stage">AI Adopter</span><strong>AI in everyday teaching</strong><small>For AI-driven schools & innovation programs</small><em>Everything in AI Explorer, plus more</em></div><span class="pp-arr" aria-hidden="true">→</span><div class="pp c3" aria-hidden="true"><span class="pp-n">3</span><span class="stage">AI Champion</span><strong>Full AI learning infrastructure</strong><small>For school networks, ministries & national programs</small><em>Everything in AI Adopter, plus more</em></div></div>
+  </div>
+</section>
+
+<section class="s alt" id="pricing-tiers"><span class="lbl">02 · Plans</span>
+  <div class="wrap">
+    <span class="eyebrow">Plans</span><h2>Pick the plan that <em class="hlw">fits your school</em></h2>
+    <div class="grid g3">
+      <div class="card tier"><span class="stage">AI Explorer</span><h3>Controlled AI introduction</h3><p>For schools starting AI adoption.</p>
+        <ul class="list"><li>AI modules &amp; Private Tutor</li><li>AI tools (limited tokens)</li><li>Basic usage analytics</li><li>School community space</li><li>Limited shadow teaching</li></ul>
+        <button class="btn" type="button" data-tier="AI Explorer" data-focus="plans" aria-label="Book a Demo about AI Explorer">Book a Demo</button></div>
+      <div class="card tier"><span class="stage">AI Adopter</span><h3>AI in everyday teaching</h3><p>For AI-driven schools and innovation programs.</p>
+        <p class="muted" style="margin:0 0 6px">Everything in Explorer, plus:</p>
+        <ul class="list"><li>Structured AI assessments</li><li>Classroom learning analytics</li><li>Skill tracking &amp; smart nudges</li><li>Shadow teaching &amp; parent updates</li></ul>
+        <button class="btn" type="button" data-tier="AI Adopter" data-focus="plans" aria-label="Book a Demo about AI Adopter">Book a Demo</button></div>
+      <div class="card tier" style="border:2px solid var(--teal);box-shadow:0 8px 24px rgba(0,128,128,.10)"><span class="stage">AI Champion</span><h3>Full AI learning infrastructure</h3><p>For school networks, ministries, and national programs.</p>
+        <p class="muted" style="margin:0 0 6px">Everything in Adopter, plus:</p>
+        <ul class="list"><li>Full ecosystem of AI tools &amp; models</li><li>Predictive insights &amp; Expert Corner</li><li>AI mentors &amp; career mapping</li><li>Teacher upskilling</li></ul>
+        <button class="btn" type="button" data-tier="AI Champion" data-focus="plans" aria-label="Book a Demo about AI Champion">Book a Demo</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="pricing-compare"><span class="lbl">03 · Compare plans</span>
+  <div class="wrap">
+    <span class="eyebrow">Compare</span>
+    <h2>Compare <em class="hlw">plans</em></h2>
+    <p class="cmp-hint" aria-hidden="true">Swipe to compare all three plans →</p>
+    <div class="cmp-wrap" style="margin-top:20px">
+      <table class="cmp">
+        <thead><tr><th scope="col"><span class="sr">Feature</span></th><th scope="col">AI Explorer</th><th scope="col">AI Adopter</th><th scope="col">AI Champion</th></tr></thead>
+        <tbody>
+        <tr><th scope="row">Purpose</th><td>Controlled AI introduction for schools</td><td>AI integrated into classroom teaching</td><td>Full AI learning infrastructure</td></tr>
+        <tr><th scope="row">Best for</th><td>Schools starting AI adoption</td><td>AI-driven schools &amp; innovation programs</td><td>School networks, ministries &amp; national programs</td></tr>
+        <tr><th scope="row">AI tools for teachers &amp; students</th><td><span class="yes">✓</span> Limited tokens</td><td><span class="yes">✓</span> Limited tokens</td><td><span class="yes">✓</span> Full ecosystem of AI tools &amp; models</td></tr>
+        <tr><th scope="row">AI Tutor (student assistance)</th><td><span class="yes">✓</span> AI Private Tutor</td><td><span class="yes">✓</span> AI Private Tutor</td><td><span class="yes">✓</span> AI Private Tutor with student analytics</td></tr>
+        <tr><th scope="row">AI curriculum integration</th><td><span class="yes">✓</span> AI modules</td><td><span class="yes">✓</span> AI modules</td><td><span class="yes">✓</span> Full AI-powered curriculum ecosystem</td></tr>
+        <tr><th scope="row">Curriculum hosting</th><td>Additional service</td><td>Additional service</td><td>Additional service</td></tr>
+        <tr><th scope="row">AI assessment generator</th><td><span class="no">✗</span></td><td><span class="yes">✓</span> Structured assessments</td><td><span class="yes">✓</span> AI-evaluated assessments with learning insights</td></tr>
+        <tr><th scope="row">Audio lesson converter</th><td><span class="no">✗</span></td><td><span class="no">✗</span></td><td><span class="yes">✓</span> AI narration &amp; accessibility optimization</td></tr>
+        <tr><th scope="row">Performance analytics</th><td><span class="yes">✓</span> Basic usage analytics</td><td><span class="yes">✓</span> Classroom learning analytics</td><td><span class="yes">✓</span> Deep learning intelligence &amp; predictive insights</td></tr>
+        <tr><th scope="row">Digital Learning ID</th><td><span class="no">✗</span></td><td><span class="no">✗</span></td><td><span class="yes">✓</span> Lifelong digital learning identity</td></tr>
+        <tr><th scope="row">Student learning profile</th><td><span class="no">✗</span></td><td><span class="yes">✓</span> Skill tracking</td><td><span class="yes">✓</span> Full competency &amp; capability mapping</td></tr>
+        <tr><th scope="row">Community space</th><td><span class="yes">✓</span> School collaboration</td><td><span class="yes">✓</span> Advanced collaboration</td><td><span class="yes">✓</span> Multi-school &amp; ecosystem collaboration</td></tr>
+        <tr><th scope="row">AI nudging system</th><td><span class="no">✗</span></td><td><span class="yes">✓</span> Smart nudges</td><td><span class="yes">✓</span> Personalized learning journey</td></tr>
+        <tr><th scope="row">AI personas (mentors / advisors)</th><td><span class="no">✗</span></td><td><span class="no">✗</span></td><td><span class="yes">✓</span> Specialized AI mentors &amp; advisors</td></tr>
+        <tr><th scope="row">Career &amp; skills mapping</th><td><span class="no">✗</span></td><td><span class="no">✗</span></td><td><span class="yes">✓</span> Future skills &amp; career intelligence</td></tr>
+        <tr><th scope="row">Administrative dashboards</th><td><span class="yes">✓</span> Basic monitoring</td><td><span class="yes">✓</span> Basic monitoring</td><td><span class="yes">✓</span> Expert Corner access</td></tr>
+        <tr><th scope="row">Data governance &amp; AI safety</th><td><span class="yes">✓</span> Controlled AI environment</td><td><span class="yes">✓</span> Controlled AI environment</td><td><span class="yes">✓</span> Controlled AI environment</td></tr>
+        <tr><th scope="row">Support</th><td><span class="yes">✓</span> Limited shadow teaching</td><td><span class="yes">✓</span> Shadow teaching &amp; parent updates</td><td><span class="yes">✓</span> Shadow teaching, parent updates &amp; teacher upskilling</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="disclaimer">All plans include onboarding and cover the full KG1–12 pathway for a full school year. Exact features depend on the agreed plan.</p>
+    <div class="note"><b>Check before publishing:</b> (1) Digital Learning ID — the v11 About page said it isn't available yet; confirm it can be sold, or mark it "coming soon". (2) The tier sheet lists AI "psychologists"; shown here as "mentors &amp; advisors" because the Trust page and Privacy Policy say aiSTART does not replace psychologists. (3) "Teachers Upskilling (2)" — the "(2)" was dropped; confirm what it means. (4) "Adoptor" corrected to "Adopter".</div>
+  </div>
+</section>
+
+<section class="s alt" id="pricing-faq"><span class="lbl">04 · FAQ</span>
+  <div class="wrap"><span class="eyebrow">FAQ</span>
+    <h2>Questions about <em class="hlw">plans</em></h2>
+    <div style="margin-top:20px">
+      <div class="acc open"><button type="button">Why don't you list prices?</button><div class="acc-body"><p>Every deployment is different — the number of students and schools, and the support you need. Tell us about your school and we'll prepare a proposal for your chosen plan.</p></div></div>
+      <div class="acc"><button type="button">What does every plan include?</button><div class="acc-body"><p>The full KG1–12 pathway for a full school year, the AI Private Tutor, onboarding, shadow teaching, and a controlled, safe AI environment.</p></div></div>
+      <div class="acc"><button type="button">Can we move to a different plan?</button><div class="acc-body"><p>Talk to us about moving up as your school's use of AI grows.</p></div></div>
+    </div>
+    <div class="note"><b>Confirm:</b> whether schools can upgrade mid-year or only at renewal.</div>
+  </div>
+</section>
+
+<section class="s dark center" id="pricing-cta"><span class="lbl">05 · Final CTA</span>
+  <div class="wrap"><h2>Not sure which plan fits?</h2><p class="lead">Tell us about your school and we'll recommend the right one.</p>
+    <div class="ctas"><a href="#/demo" class="btn primary" data-focus="plans">Book a Demo</a></div>
+    <p class="cta-note">Tell us about your school and we'll prepare a proposal for your plan.</p></div>
+</section>
+</div>
+
+<!-- ===================== PAGE 11 — BOOK A DEMO ===================== -->
+<div class="page" id="page-demo" data-title="Book a Demo">
+
+<section class="s" id="demo-form"><span class="lbl">01 · Demo form</span>
+  <div class="wrap contact-grid">
+    <div class="contact-intro">
+      <span class="eyebrow">Book a Demo</span>
+      <h1>See aiSTART with your school in mind.</h1>
+      <p class="lead">Tell us about your school and we'll show you how aiSTART could work in your environment.</p>
+      <div class="next-steps">
+        <h2 class="cs-h">What happens next</h2>
+        <ol>
+          <li><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><div><b>We reply within 2 working days</b><small>From the aiSTART team, by email.</small></div></li>
+          <li><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg></span><div><b>A 30-minute call</b><small>Tailored to your school, grades and goals.</small></div></li>
+          <li><span><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></span><div><b>A tailored proposal</b><small>If it's a fit — no obligation.</small></div></li>
+        </ol>
+      </div>
+      <div class="direct" id="demo-contact">
+        <h2 class="cs-h">Prefer to contact us directly?</h2>
+        <div class="direct-grid">
+          <a class="ct" href="mailto:aiSTART@slangit.ai"><span class="ct-ico"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><span><small>General</small><b>aiSTART@slangit.ai</b></span></a>
+          <a class="ct" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=support@slangit.ai&amp;su=aiSTART%20technical%20support" target="_blank" rel="noopener" aria-label="Technical support: email support@slangit.ai in Gmail (opens in a new tab)"><span class="ct-ico"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/><circle cx="12" cy="12" r="4"/></svg></span><span><small>Technical support</small><b>support@slangit.ai</b></span></a>
+          <a class="ct" href="tel:+971564081510"><span class="ct-ico"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span><small>UAE</small><b>+971 56 408 1510</b></span></a>
+          <a class="ct" href="tel:+966594576378"><span class="ct-ico"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span><small>Saudi Arabia</small><b>+966 59 457 6378</b></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="card form-card">
+      <form id="demoForm" novalidate>
+        <div class="fc-head"><h2 class="cs-h">Book a Demo</h2><small>Three quick questions, plus an optional message. We'll ask the rest when we schedule your call.</small></div>
+        <p class="df-focus" id="dfFocus" hidden></p>
+        <div class="form">
+          <div class="field full"><label for="em">Work email</label><input id="em" name="em" type="email" required autocomplete="email" inputmode="email" aria-describedby="em-m"><div class="msg" id="em-m">Please enter a valid email address, e.g. name@school.org.</div></div>
+          <div class="field full"><label for="org">School or organization</label><input id="org" name="org" required autocomplete="organization" aria-describedby="org-m"><div class="msg" id="org-m">Please enter your school or organization.</div></div>
+          <div class="field full"><label for="role">Your role</label>
+            <select id="role" name="role" required aria-describedby="role-m"><option value="">Select…</option><option>Ministry / Education Authority</option><option>School Leader</option><option>Curriculum Leader</option><option>Technology Leader</option><option>Subject Matter Expert</option><option>Counsellor / Safeguarding Lead</option><option>Teacher</option><option>Partner</option><option>Other</option></select>
+            <div class="msg" id="role-m">Please select your role.</div></div>
+          <div class="field full"><label for="msg">Message <span class="opt">(optional)</span></label><textarea id="msg" name="msg" rows="3" placeholder="Anything you'd like us to know or cover"></textarea></div>
+        </div>
+        <input type="hidden" id="focus" name="focus" value="general"><input type="hidden" id="plan" name="plan" value="">
+        <button class="btn primary submit" type="submit"><span class="sb-t">Book my demo</span></button>
+        <p class="df-legal">By booking, you agree that Slangit may contact you about aiSTART, as described in the <a href="#/trust/privacy">Privacy Policy</a>.</p>
+        <div class="note">Wireframe: validates client-side only. Connect to CRM / email endpoint in build. <b>Check with legal:</b> whether a notice is enough here or an explicit consent checkbox is required in your markets.</div>
+      </form>
+      <div class="success" id="demoSuccess" role="status" aria-live="polite" tabindex="-1">
+        <span class="ok-ico"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <h2>Request received</h2>
+        <p>We'll email you within 2 working days to schedule your 30-minute call.</p>
+        <form id="demoMore" class="df-more" novalidate>
+          <h3 class="cs-h">Help us prepare <span class="opt">(optional)</span></h3>
+          <div class="form">
+            <div class="field"><label for="nm">Your name</label><input id="nm" name="nm" autocomplete="name"></div>
+            <div class="field"><label for="country">Country</label><input id="country" name="country" autocomplete="country-name"></div>
+            <div class="field full"><label for="size">Number of students</label><select id="size" name="size"><option value="">Select…</option><option>Under 250</option><option>250–1,000</option><option>1,000–5,000</option><option>5,000+</option><option>Multiple schools / system-wide</option></select></div>
+          </div>
+          <div class="ctas" style="justify-content:center"><button class="btn primary" type="submit">Send details</button><a href="#/curriculum" class="more">Skip — explore the curriculum →</a></div>
+        </form>
+        <p class="df-saved" role="status" aria-live="polite"></p>
+        <button class="more df-again" type="button" id="demoReset">Submit another request</button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="page" id="page-cases" data-title="News & Impact">
+<section class="s" id="cases-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap"><span class="eyebrow">News &amp; Impact</span><h1>AI education in practice.</h1>
+    <p class="lead">How schools, educators, and partners are introducing structured AI learning with Slangit and aiSTART.</p></div>
+</section>
+<section class="s alt" id="cases-list"><span class="lbl">02 · Stories</span>
+  <div class="wrap"><span class="eyebrow">Stories</span>
+    <h2>Latest <em class="hlw">stories</em></h2></div>
+  <div class="wrap news">
+    <article class="story" data-cat="training"><div class="cover cover-photo"><img src="assets/img/news/ghana-train-the-trainer.webp" width="1400" height="706" alt="Video call grid of Ghanaian educators and the Slangit team smiling during an AI Literacy 101 session" loading="lazy" decoding="async"><span>Educator training · Ghana</span></div><div class="st-body"><span class="stage">Educator training</span><h3>AI Literacy 101 — Ghana Train-the-Trainer Program</h3>
+      <p>Educators in Ghana joined AI Literacy 101, the train-the-trainer program that prepares them to lead AI literacy training in their own schools and communities. It is the first step of the five-year initiative with GADEF International.</p>
+      <ul class="st-tags"><li>Ghana</li><li>Train the trainer</li><li>AI literacy</li></ul>
+      <a class="more" href="#/services/training">Educator AI Training →</a></div></article>
+    <article class="story" data-cat="partner"><div class="cover cover-photo"><img src="assets/img/news/ghana-gadef-team.webp" width="1400" height="617" alt="Video call grid of the Slangit team in front of an 'AI Literacy in Africa — Because We All Deserve' background" loading="lazy" decoding="async"><span>Partnership · Africa</span></div><div class="st-body"><span class="stage">Partnership</span><h3>Ghana — Slangit Technologies × GADEF International</h3>
+      <p>A five-year initiative advancing AI literacy across Africa, beginning in Ghana.</p>
+      <ul class="st-tags"><li>Ghana</li><li>AI literacy</li><li>Five-year initiative</li></ul>
+      <a class="btn sm" target="_blank" rel="noopener" href="https://finance.yahoo.com/technology/ai/articles/slangit-technologies-gadef-international-launch-153000913.html">Read the announcement →</a></div></article>
+    <article class="story" data-cat="training"><div class="cover cover-photo fill"><img src="assets/img/news/advanced-prompting.webp" width="1200" height="547" alt="Teachers working on laptops in a classroom while the trainer leads the Advanced Prompting course" loading="lazy" decoding="async"><span>Educator training</span></div><div class="st-body"><span class="stage">Educator training</span><h3>Advanced Prompting Course for Educators</h3>
+      <p>Teachers learned to move beyond basic prompts with structure, context, role definition, constraints, and iterative refinement.</p>
+      <ul class="st-tags"><li>Teachers</li><li>Prompting</li><li>CPD</li></ul>
+      <a class="more" href="#/services/training">Educator AI Training →</a></div></article>
+    <article class="story" data-cat="event"><div class="cover cover-photo fill"><img src="assets/img/news/bdd-hackathon.webp" width="1200" height="675" alt="Three students in school uniform holding a trophy, standing with organisers in front of aiSTART banners at the hackathon" loading="lazy" decoding="async"><span>Event · Beirut</span></div><div class="st-body"><span class="stage">Event</span><h3>aiSTART Hackathon at Beirut Digital District (BDD)</h3>
+      <p>Grades 4–6 opened the day by taking the aiSTART Student Oath, then built and innovated with AI. Slangit now runs inter-school competitions that promote honest, safe AI use and AI for social good.</p>
+      <ul class="st-tags"><li>Grades 4–6</li><li>Student Oath</li><li>Beirut</li></ul>
+      <a class="more" target="_blank" rel="noopener" href="https://www.linkedin.com/posts/activity-7432859245055938560-vEfz">Watch the TV report on LinkedIn →</a></div></article>
+  </div>
+  <div class="wrap"><div class="note"><b>Case study template:</b> School · Country · Challenge · Rollout (grades, delivery model) · Results (adoption numbers are fine; learning outcomes only if validated) · Quote. Rename this page back to "Case Studies" once 2–3 are published.</div></div>
+</section>
+<section class="s" id="cases-news"><span class="lbl">03b · Newsletter</span>
+  <div class="wrap">
+    <div class="nl">
+      <div><span class="eyebrow">Newsletter</span><h2>Don't miss <em class="hlw">a story</em></h2><p class="lead">News from schools, educators, and partners using aiSTART.</p></div>
+      <form class="nl-form" novalidate data-nl><label class="sr" for="nl-em">Email address</label><input id="nl-em" type="email" autocomplete="email" inputmode="email" placeholder="name@school.org" required><button type="submit" class="btn primary">Subscribe</button><p class="nl-msg" role="status" aria-live="polite"></p></form>
+    </div>
+    <div class="note"><b>Connect:</b> the form to your mailing tool before launch.</div>
+  </div>
+</section>
+
+<section class="s alt" id="cases-testimonials" hidden><span class="lbl">04 · Testimonials</span>
+  <div class="wrap"><h2>What educators &amp; partners say</h2>
+    <div class="grid g3" style="margin-top:18px">
+      <div class="card"><p class="quote">“Short testimonial.”</p><b>Name</b><br><span class="muted">Role · School / Organization · Country</span></div>
+      <div class="card"><p class="quote">“Short testimonial.”</p><b>Name</b><br><span class="muted">Role · School / Organization · Country</span></div>
+      <div class="card"><p class="quote">“Short testimonial.”</p><b>Name</b><br><span class="muted">Role · School / Organization · Country</span></div>
+    </div>
+    <div class="note"><b>Implementation:</b> Only publish testimonials approved for public use. Hide this section until at least three are available.</div></div>
+</section>
+</div>
+
+<!-- ===================== RESEARCH ===================== -->
+<div class="page" id="page-research" data-title="Research" data-hidden>
+<section class="s" id="research-hero"><span class="lbl">01 · Hero</span>
+  <div class="wrap"><span class="eyebrow">Research &amp; Evidence</span><h1>The thinking behind aiSTART.</h1>
+    <p class="lead">The principles and research that shape how we design AI learning for schools.</p></div>
+</section>
+<section class="s alt" id="research-topics"><span class="lbl">02 · Articles</span>
+  <div class="wrap"><h2>Articles</h2>
+    <div class="grid g3" id="topicGrid" style="margin-top:18px"></div>
+    <div class="note"><b>Launch rule:</b> Publish only topics with a finished article. Hide cards marked "Coming soon", or hide this page until 4–6 articles are ready.</div></div>
+</section>
+<section class="s" id="research-boundary"><span class="lbl">03 · How we talk about impact</span>
+  <div class="wrap split">
+    <div><h2>How we talk about impact</h2>
+      <p>Platform activity, engagement, and assessment patterns are useful signals. We don't claim they prove aiSTART improves academic performance, mental health, or other outcomes unless those outcomes have been separately and properly validated.</p></div>
+    <div class="card" style="border:2px solid var(--ink)"><p>Wellbeing and safeguarding indicators are always</p><p class="big-statement">Signals for human review</p><p class="muted">— never diagnoses, clinical measurements, or automated conclusions.</p></div>
+  </div>
+</section>
+</div>
+
+<!-- ===================== STUB PAGES ===================== -->
+<div class="page" id="page-blog" data-title="Blog" data-hidden>
+<section class="s"><span class="lbl">Stub · Blog</span><div class="wrap"><h1>Blog</h1><p class="muted">Content not provided yet.</p><div class="grid g3"><div class="ph">Post card</div><div class="ph">Post card</div><div class="ph">Post card</div></div>
+  <div class="note"><b>Launch rule:</b> Not linked from nav or footer until posts exist.</div></div></section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fbrand"><a href="#/home" class="logo" aria-label="aiSTART home"><img src="assets/img/aistart-logo-footer.png" alt="aiSTART" width="117" height="22"></a>
+        <p class="f-tag"><b style="color:#fff">A Single AI Infrastructure for Education.</b><br>Teach AI. Build with AI. Understand your learners. Empower educators. Govern AI responsibly.</p></div>
+      <div><h4>Platform</h4><a href="#/platform">Overview</a><a href="#/curriculum">Curriculum</a><a href="#/platform/tools">AI Tools</a><a href="#/platform/assessments">Assessments</a><a href="#/platform/flex">Flex</a><a href="#/platform/ask">Insights</a><a href="#/pricing">Plans</a></div>
+      <div><h4>Who It's For</h4><a href="#/leaders">School Leaders</a><a href="#/leaders/ministries">Ministries</a><a href="#/teachers">Teachers</a><a href="#/students">Students</a><a href="#/parents">Parents</a></div>
+      <div><h4>Services</h4><a href="#/services/included">What's included</a><a href="#/services/extra">Additional services</a><a href="#/services/training">Educator AI Training</a></div>
+      <div><h4>Company</h4><a href="#/cases">News &amp; Impact</a></div>
+      <div><h4>Support</h4><a href="#/demo/contact">Contact</a><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=support@slangit.ai&amp;su=aiSTART%20technical%20support" target="_blank" rel="noopener">Technical Support<span class="sr"> (opens Gmail in a new tab)</span></a></div>
+      <div><h4>Trust &amp; Safety</h4><a href="#/trust">Overview</a><a href="#/trust/privacy">Privacy Policy</a><a href="#/trust/usage">AI Usage Policy</a><a href="#/trust/accessibility">Accessibility</a><a href="#/students/oath">Student Oath</a></div>
+    </div>
+    <p class="f-about">Curriculum, tools, insights, and support in one place, helping schools turn AI access into responsible AI learning.</p>
+    <div class="fbottom"><span>© Slangit Technologies · aiSTART</span><span>aiSTART@slangit.ai · +971 56 408 1510 · +966 59 457 6378</span></div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/main.js?v=32"></script>
+</body>
+</html>
